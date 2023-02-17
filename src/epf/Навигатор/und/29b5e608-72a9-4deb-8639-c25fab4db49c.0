@@ -1,0 +1,3792 @@
+﻿{4,
+{49,0,0,0,0,1,0,0,00000000-0000-0000-0000-000000000000,0,
+{1,0},0,0,1,1,1,0,1,0,
+{3,3699f6a3-9a2a-4c82-a775-6ff4824a08ca,"ОбработкаОповещения",3ccc650e-f631-4cae-8e33-3eaac610b5f9,"ПриОткрытии",9f2e5ddb-3492-4f5d-8f0d-416b8d1d5c5b,"ПриСозданииНаСервере",1,0,3699f6a3-9a2a-4c82-a775-6ff4824a08ca,0,1,3ccc650e-f631-4cae-8e33-3eaac610b5f9,0,1,9f2e5ddb-3492-4f5d-8f0d-416b8d1d5c5b,0,1},
+{0},1,
+{22,
+{-1,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,9,"ФормаКоманднаяПанель",
+{1,0},
+{1,0},0,1,0,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{0,0,0},3,a9f3b1ac-f51b-431e-b102-55a69acdecad,
+{31,
+{20,02023637-7868-4a5f-8576-835a76e0c9ba},0,1,
+{0,
+{0,
+{"B",1},0}
+},0,"КомандаВыход",
+{1,0},1,
+{0,3772996b-41f4-4c47-a5a8-ea397db424ae},
+{0},1,0,0,0,2,2,0,0,0,
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},0,
+{4,3,
+{0},"",-1,-1,0,
+{
+{#base64:iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAO
+xAGVKw4bAAAAyUlEQVR4XqVTIQ4CMRDcXoq4hCNnCH9AgQCBAE+CxOB4AN/gAxgU
+EoNDY0AgUCj+QBCHqyyZhk0bUlJoJ9lkMpuZ3Gx6QmtNKZAgSqkyxpzn+VO+eUVx
+EJLZrtP6yzm93g3JPhe1omGGhGAJ3OoW/oDeck3jw41Gmz2MGHBo2PmP6OK8mNFg
+taVmf2iMQNnu0uNywi4Q4AkBHHOwgu1cL1gAh/ZTAHfmz8aA802CAWzmzhg3JHyD
+43zivck3ZJQI6b6sGKT+jekVXqSJQ1vIX/vGAAAAAElFTkSuQmCC}
+},0,""},1,
+{"Pattern"},"",2,0,1,
+{12,
+{21,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,0,"КомандаВыходРасширеннаяПодсказка",
+{1,0},
+{1,0},1,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{5,0,0,3,0,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,0,
+{0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e}
+},0,1,2,
+{1,
+{1,0},0},0,0,1,0,0,1,0,3,3,0,0},
+{"U"},1,0,0,1,0,0,0,3,3,3,0,2,0,0,0,0,1,0},a9f3b1ac-f51b-431e-b102-55a69acdecad,
+{31,
+{34,02023637-7868-4a5f-8576-835a76e0c9ba},0,1,
+{0,
+{0,
+{"B",1},0}
+},0,"КомандаЗаписатьИзменения",
+{1,0},1,
+{1,409b9a53-7f7e-4178-86c1-33176c7c7a7a},
+{0},1,0,0,0,2,2,0,0,0,
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},0,
+{4,1,
+{0,894cf65b-4109-4533-a1d7-c87b1fcc80a3},"",-1,-1,1,0,""},1,
+{"Pattern"},"",2,0,1,
+{12,
+{35,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,0,"КомандаЗаписатьИзмененияРасширеннаяПодсказка",
+{1,0},
+{1,0},1,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{5,0,0,3,0,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,0,
+{0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e}
+},0,1,2,
+{1,
+{1,0},0},0,0,1,0,0,1,0,3,3,0,0},
+{"U"},1,0,0,1,0,0,0,3,3,3,0,2,0,0,0,0,1,0},a9f3b1ac-f51b-431e-b102-55a69acdecad,
+{31,
+{36,02023637-7868-4a5f-8576-835a76e0c9ba},0,1,
+{0,
+{0,
+{"B",1},0}
+},0,"КомандаУдалитьЗапись",
+{1,0},1,
+{2,409b9a53-7f7e-4178-86c1-33176c7c7a7a},
+{0},3,0,0,0,2,2,0,0,0,
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},0,
+{4,3,
+{0},"",-1,-1,0,
+{
+{#base64:iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAO
+xAGVKw4bAAABDklEQVR4Xq2TIU/DUBSFzyNvJBVr+xNQIEDMoLegO7GRgCag+Qeo
+/YFmGjKNYBPUYVpJJpgAAQpFkK8laZMh3nqSpnlm9GXjS25yjrj3nXuTJ7TW2IYd
+iqIoOiwQ01sg8jxnY1z5HojhHcdZNCWI5zfXHot6mank6eyk9k1J5O9P6qn3V6iP
+N/pa2yJbbe+idzebxJcDfD7eg/j7h+jeTjPbFRZa6wwG/sERdl1fwwKhvr/S5Gro
+MjZfJtR7/XMcj8ZpUwpJYcYWQrhcp4KHfCkPiXXIMmq3bExoqAF0eJPkeY4gCPAX
+URRBVvHYiEqzJmEYYvowwzqGpwMQWTduCAc0vLLhAO5nwz/8xi1ZAf3AdEs3jMh5
+AAAAAElFTkSuQmCC}
+},0,""},1,
+{"Pattern"},"",2,0,1,
+{12,
+{37,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,0,"КомандаУдалитьЗаписьРасширеннаяПодсказка",
+{1,0},
+{1,0},1,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{5,0,0,3,0,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,0,
+{0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e}
+},0,1,2,
+{1,
+{1,0},0},0,0,1,0,0,1,0,3,3,0,0},
+{"U"},1,0,0,1,0,0,0,3,3,3,0,2,0,0,0,0,1,0},1,0,0,0,3,3,0},2,cd5394d0-7dda-4b56-8927-93ccbe967a01,
+{22,
+{41,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,1,
+{0,
+{0,
+{"B",1},0}
+},5,"ГруппаВсеКартинки",
+{1,1,
+{"ru","Группа все картинки"}
+},
+{1,1,
+{"ru","Группа все картинки"}
+},0,1,0,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{29,1,0,0,0,
+{0},
+{1,0},
+{"Pattern"},"",
+{3,4,
+{0}
+},0,0,0,1,
+{1,0},0,0,3,3,2,0,1,2,
+{3,4,
+{0}
+},0,2,0,2,0},2,3d3cb80c-508b-41fa-8a18-680cdf5f1712,
+{12,
+{43,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,1,
+{0,
+{0,
+{"B",1},0}
+},1,"КартинкаУспешно32",
+{1,1,
+{"ru","Картинка успешно32"}
+},
+{1,0},1,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{4,
+{4,3,
+{0},"",-1,-1,0,
+{
+{#base64:iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAGXRFWHRTb2Z0d2Fy
+ZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3lJREFUeNrsl/9LE3EYxx83vztIprPl
+1FKn4mpuc/htZKRiEKhBEAb9N/Wf9FsQRFEgxkqIJAy/4NfcnDad0+2223Tb6b7c
+Xc/n9My2U+dM90MdvLntw9293s/z3D33XA7P85DNTQZZ3rJuIHfoRfs/kQE56m62
+DKhR0xq1+gvu36KKrtIAgVstZrN+eHAAzHr9ULIJ2eXDW3X1ulJwhqehxVSFJu70
+4/p70UTuZcK7Wlt1NU1F4A4vAuk2oSgFOkMD4J/eyfl5kokBeVOPJvlkBWoY5UWF
+M4CrUJ8FeGMheJlVEHodiuNZiMQDUFtVDWw0v57y+50yCefjzVrtS9zPoowZwMc6
+jEZddUMBeBgHkE57XAkuDovOOViw2WJ47JwsCT7WaTLpH3R3Q5/FQi5mPYeJIziJ
+fDviAI7jU0R7ozD11Ufgz1ATsuM16zSamm5qFWCjx6G0koXeLosS10fTMCHA2w0Y
+uRbhYUw7BymivTGY/RYU4a/Fp4DU3NphNOkq6/LBFVqC3agfL+KAkusR6OnsVJ1h
+4gDeYtBV1RfAVngFI+VSRFNRmJ8Q4E9FuGigv66mRqepzUPoCjrlj+RnXFBSwcD9
+3yb0EnBr2yE8+XxRAYx84fuOCH+T3IgmVtfXqZnlBcma+YgJVQTutXeI94T+D7je
+oNfUFoA7tCJdcyoGi1O7BP4kGS4a2EQ9XF2M0F7XvmQEvogLFCrmuIneA3gLwvNh
+O2SXjhzhP6ZDIvydVP1yBp+3ib/NJM23GouVqhv5ksUuL64CNqSEBbsNbjc0QuE1
+5iDtEscG/XGwz0dOhSe34klU308bQ3vdUcl0esMbwBdTYOloBrliB9NuB1biuIDv
+CP74NLhUK54hJpz2PSumUFmuTs2EP7IJNOOGk0a5HToBjiVGhH84cyCRWBNMrDv2
+rRiNsqwiL+02uBtIwJptn8AfoUbSmohOWBdMuNaio2hCpSw/+50VCrLgdET3DiMf
+Sdf0aVcmJh64nbFRnuVVpWXyk+G7HLjWYueGpzMPCCa2XHGKphLAJrgUkZpnCk93
+IBFMeNwJKuBLAIdQUSTt7o3E3nlqnulMKNwTlIejgjQLHIvwHRa2NlkR/vEqpuI5
+YsJH8VQwwINnmyfwgYvAM5kJiYlu2s+/ImVBfbrwh0kG5ywfvtX+ypbz/+M02wZ+
+CTAA2Oo/7/v4np8AAAAASUVORK5CYII=}
+},0,""},0,0,0,
+{1,0},
+{3,4,
+{0}
+},
+{3,0,
+{0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e},0,0,
+{0,1,0},1,100},1,
+{22,
+{44,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,8,"КартинкаУспешно32КонтекстноеМеню",
+{1,0},
+{1,0},0,1,0,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{1,1},0,1,0,0,0,3,3,0},1,2,
+{1,
+{1,1,
+{"ru","Картинка успешно32"}
+},0},0,1,
+{12,
+{45,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,0,"КартинкаУспешно32РасширеннаяПодсказка",
+{1,0},
+{1,0},1,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{5,0,0,3,0,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,0,
+{0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e}
+},0,1,2,
+{1,
+{1,0},0},0,0,1,0,0,1,0,3,3,0,0},1,0,0,1,0,3,3,0,0},3d3cb80c-508b-41fa-8a18-680cdf5f1712,
+{12,
+{46,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,1,
+{0,
+{0,
+{"B",1},0}
+},1,"КартинкаОшибка32",
+{1,1,
+{"ru","Картинка ошибка32"}
+},
+{1,0},1,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{4,
+{4,3,
+{0},"",-1,-1,0,
+{
+{#base64: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
+QmCC}
+},0,""},0,0,0,
+{1,0},
+{3,4,
+{0}
+},
+{3,0,
+{0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e},0,0,
+{0,1,0},1,100},1,
+{22,
+{47,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,8,"КартинкаОшибка32КонтекстноеМеню",
+{1,0},
+{1,0},0,1,0,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{1,1},0,1,0,0,0,3,3,0},1,2,
+{1,
+{1,1,
+{"ru","Картинка ошибка32"}
+},0},0,1,
+{12,
+{48,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,0,"КартинкаОшибка32РасширеннаяПодсказка",
+{1,0},
+{1,0},1,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{5,0,0,3,0,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,0,
+{0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e}
+},0,1,2,
+{1,
+{1,0},0},0,0,1,0,0,1,0,3,3,0,0},1,0,0,1,0,3,3,0,0},0,0,1,
+{12,
+{42,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,0,"ГруппаВсеКартинкиРасширеннаяПодсказка",
+{1,0},
+{1,0},1,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{5,0,0,3,0,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,0,
+{0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e}
+},0,1,2,
+{1,
+{1,0},0},0,0,1,0,0,1,0,3,3,0,0},0,3,3,0},cd5394d0-7dda-4b56-8927-93ccbe967a01,
+{22,
+{49,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,1,
+{0,
+{0,
+{"B",1},0}
+},3,"СтраницыФормы",
+{1,1,
+{"ru","Страницы формы"}
+},
+{1,1,
+{"ru","Страницы формы"}
+},0,1,0,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{4,1,
+{0,1,0},2,0,1},3,cd5394d0-7dda-4b56-8927-93ccbe967a01,
+{22,
+{51,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,1,
+{0,
+{0,
+{"B",1},0}
+},4,"СтраницаЗапись",
+{1,1,
+{"ru","Запись"}
+},
+{1,1,
+{"ru","Страница запись"}
+},0,1,0,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{18,
+{4,0,
+{0},"",-1,-1,1,0,""},0,0,
+{0},
+{1,0},1,
+{"Pattern"},"",
+{3,4,
+{0}
+},0,0,3,3,0,0,0,0,
+{3,4,
+{0}
+},
+{7,3,0,1,100}
+},1,143c00f7-a42d-4cd7-9189-88e4467dc768,
+{55,
+{1,02023637-7868-4a5f-8576-835a76e0c9ba},0,2,1,
+{0,
+{0,
+{"B",1},0}
+},"ДанныеЗаписи",0,0,0,
+{1,0},
+{1,0},
+{1,
+{2}
+},0,1,0,0,0,0,1,0,0,0,0,0,1,0,1,1,0,1,2,2,1,1,0,0,0,0,2,0,0,1,1,
+{1,
+{7}
+},
+{4,3,
+{0},"",-1,-1,0,
+{
+{#base64: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
+nV5Hg9XBx7vy0Oz+5+9XVr/35Edn5WahUTTEAS8ejQR8ZQvzQr6HZutiHtxRNvIw
+sxeGRoVG/bNhBtdEbMTphPCwUAZUv89ZVy2V1BAWEkJQ72eiLFXGhbGPxmbXvVjX
+KeZonV2/pWAjdbnraLDvxeEIxRg/nqS+N5Pc5yq/9WdlQrbXiLAKWJ2dTSbZTJsG
+b745nNTUVJ+/j/801FscXHWJ7+/81ffHuHbc4FZ5l77i14Ng5v0zr+FvG/45kw4K
+G9vCJvNt9yqq+maUqrC7eL+lpKy+XQHH3mNnu3SLErFUlaCITnrEyBSeaejeXjkP
+6iuKcVjanoRCIzvXerRTCJAiq1Eup+n2+KSI7qHhRtDqUGUr4NGIKAiCRERMAolp
+Cb1P7D11myr33gu0etsG57kv8M9U1922Yv6VnDbZQYMT+QXsPF55GzDX6RKx2J3U
+1rmlnw0WC06XLwFK69mnZHvNjD6e694ZJ3Tba2ZUt3Hd7uQVSAPkjxQFgmdCUVQF
+URTRG1zIjeZdftDhRWZ7eYMMehr+mIVh4DDCbr8PgMlDmywA2bZ9Z0ATKGAJsPyS
+Lq6PJ6QLK6+acQEuSyFgAbUKxZnNtk9Tdv2wo+bZlr5Ahx1w5JMPGXrT3IDH4aEd
+e8Gg4OAuY+5++qeIhFRHYr9MMwQ2ies/LSGpW2bE0+HRwQtCI4yEhgUDAoJOAA1k
+VURRlXExsXJB8qCIdWePW5e2JEKZxsc5W3GGY7nu5LqfLvVpT91PlzK4b2+SU7py
+JAB3DDLosRZ8SUS/EqAX7inQSUqajdzNr6GpCsnDbw74zq9kuTV3L+/Ip7wwl+0v
+P9Cxj+VVvwc1dVV8uP0tbhp/O92SepzTc8r2vr+ZZg3Q5qopK7aMmLGoQ6r5dX+6
+yX0yqAdXXtFM3NrqfwIamqZhMBgICQ0lLDycsKgYQh0KVqnGLVFuAy3JjwfnSoI8
+xKYtgtMWWpKf3B+2ET5gPMA5k6C6o4ehyoIEOBOjIDS8zfxH69zEpiPYerCAyd3c
+w6XeKAw4ualqHX4m3WYTpmYceLnSR3J5vLiiWlY1UpKTufqqiWzevJW4uDh69eyO
+yWRCFEX27dvHQw8tJCU5GVXVOJ5X5FeV5d1/ZbOKOjgdHUVIux5m54/JzHjmTb/v
+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
+8P8Atsp9yBI5VEEAAAAASUVORK5CYII=}
+},0,""},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},0,0,1,19,
+{"S",""},
+{1,1282f000-23b6-4887-87f4-9e8e79db3d32,"ДанныеЗаписиВыбор",1,0,1282f000-23b6-4887-87f4-9e8e79db3d32,0,1},
+{0},1,
+{22,
+{3,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,8,"ДанныеЗаписиКонтекстноеМеню",
+{1,0},
+{1,0},0,1,0,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{1,1},0,1,0,0,0,3,3,0},1,
+{22,
+{2,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,9,"ДанныеЗаписиКоманднаяПанель",
+{1,0},
+{1,0},0,1,0,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{0,0,1},0,1,0,0,0,3,3,0},5,77ffcc29-7f2d-4223-b22f-19666e7250ba,
+{35,
+{14,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,2,"ДанныеЗаписиИмяРеквизита",1,0,
+{1,1,
+{"ru","Имя"}
+},
+{1,0},
+{2,
+{2},
+{3}
+},
+{0},1,1,2,0,2,
+{1,0},
+{1,0},1,1,0,3,0,3,1,3,0,
+{4,0,
+{0},"",-1,-1,1,0,""},
+{4,0,
+{0},"",-1,-1,1,0,""},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{32,
+{3,0},0,0,2,2,1,2,2,2,2,2,2,2,2,2,
+{"U"},
+{"U"},"",0,
+{4,0,
+{0},"",-1,-1,1,0,""},0,0,2,3,00000000-0000-0000-0000-000000000000,
+{5006,0},
+{0,0},2,
+{1,0},
+{1,0},2,1,0,
+{"Pattern"},1,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{7,3,0,1,100},1,
+{3,0,0},0,
+{1,0},2,0,2,0,1,0,0,1,0,0,0,0,0,0,0,0,0},
+{0,1,0},1,
+{22,
+{15,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,8,"ДанныеЗаписиИмяРеквизитаКонтекстноеМеню",
+{1,0},
+{1,0},0,1,0,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{1,1},0,1,0,0,0,3,3,0},1,
+{"Pattern"},
+{"Pattern"},"","",
+{0},0,0,1,
+{12,
+{16,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,0,"ДанныеЗаписиИмяРеквизитаРасширеннаяПодсказка",
+{1,0},
+{1,0},1,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{5,0,0,3,0,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,0,
+{0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e}
+},0,1,2,
+{1,
+{1,0},0},0,0,1,0,0,1,0,3,3,0,0},3,3,0,0},77ffcc29-7f2d-4223-b22f-19666e7250ba,
+{35,
+{17,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,1,
+{0,
+{0,
+{"B",1},0}
+},2,"ДанныеЗаписиЗначениеРеквизита",1,0,
+{1,1,
+{"ru","Значение"}
+},
+{1,0},
+{2,
+{2},
+{4}
+},
+{0},1,0,2,0,2,
+{1,0},
+{1,0},1,1,0,3,0,3,1,3,0,
+{4,0,
+{0},"",-1,-1,1,0,""},
+{4,0,
+{0},"",-1,-1,1,0,""},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{32,
+{3,0},0,0,2,2,1,2,2,2,2,2,2,2,2,2,
+{"U"},
+{"U"},"",0,
+{4,0,
+{0},"",-1,-1,1,0,""},0,0,2,3,00000000-0000-0000-0000-000000000000,
+{5006,0},
+{0,0},2,
+{1,0},
+{1,0},2,0,0,
+{"Pattern"},1,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,2,
+{79}
+},
+{3,4,
+{0}
+},
+{7,2,60,
+{-31},700,0,0,0,1,100},1,
+{3,0,0},0,
+{1,0},2,0,2,0,1,0,0,1,0,0,0,0,0,0,0,0,0},
+{1,fe115cc8-9e33-4684-a166-bd5136fe7a9f,"ДанныеЗаписиЗначениеРеквизитаПриИзменении",1,0,fe115cc8-9e33-4684-a166-bd5136fe7a9f,0,1},1,
+{22,
+{18,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,8,"ДанныеЗаписиЗначениеРеквизитаКонтекстноеМеню",
+{1,0},
+{1,0},0,1,0,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{1,1},0,1,0,0,0,3,3,0},1,
+{"Pattern"},
+{"Pattern"},"","",
+{0},0,0,1,
+{12,
+{19,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,0,"ДанныеЗаписиЗначениеРеквизитаРасширеннаяПодсказка",
+{1,0},
+{1,0},1,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{5,0,0,3,0,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,0,
+{0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e}
+},0,1,2,
+{1,
+{1,0},0},0,0,1,0,0,1,0,3,3,0,0},3,3,0,0},77ffcc29-7f2d-4223-b22f-19666e7250ba,
+{35,
+{31,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,2,"ДанныеЗаписиПредставлениеТипа",1,0,
+{1,1,
+{"ru","Тип"}
+},
+{1,0},
+{2,
+{2},
+{6}
+},
+{0},1,1,2,0,2,
+{1,0},
+{1,0},1,1,0,3,0,3,2,3,0,
+{4,0,
+{0},"",-1,-1,1,0,""},
+{4,0,
+{0},"",-1,-1,1,0,""},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{32,
+{3,0},0,0,2,2,1,2,2,2,2,2,2,2,2,2,
+{"U"},
+{"U"},"",0,
+{4,0,
+{0},"",-1,-1,1,0,""},0,0,2,3,00000000-0000-0000-0000-000000000000,
+{5006,0},
+{0,0},2,
+{1,0},
+{1,0},2,1,0,
+{"Pattern"},1,
+{0,1,0},
+{3,2,
+{96}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{7,2,60,
+{-31},400,1,0,0,1,100},1,
+{3,0,0},0,
+{1,0},2,0,2,0,1,0,0,1,0,0,0,0,0,0,0,0,0},
+{0,1,0},1,
+{22,
+{32,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,8,"ДанныеЗаписиПредставлениеТипаКонтекстноеМеню",
+{1,0},
+{1,0},0,1,0,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{1,1},0,1,0,0,0,3,3,0},1,
+{"Pattern"},
+{"Pattern"},"","",
+{0},0,0,1,
+{12,
+{33,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,0,"ДанныеЗаписиПредставлениеТипаРасширеннаяПодсказка",
+{1,0},
+{1,0},1,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{5,0,0,3,0,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,0,
+{0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e}
+},0,1,2,
+{1,
+{1,0},0},0,0,1,0,0,1,0,3,3,0,0},3,3,0,0},77ffcc29-7f2d-4223-b22f-19666e7250ba,
+{35,
+{25,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,2,"ДанныеЗаписиСинонимРеквизита",1,0,
+{1,1,
+{"ru","Синоним"}
+},
+{1,0},
+{2,
+{2},
+{1}
+},
+{0},1,1,2,0,2,
+{1,0},
+{1,0},1,1,0,3,0,3,2,3,0,
+{4,0,
+{0},"",-1,-1,1,0,""},
+{4,0,
+{0},"",-1,-1,1,0,""},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{32,
+{3,0},0,0,2,2,1,2,2,2,2,2,2,2,2,2,
+{"U"},
+{"U"},"",0,
+{4,0,
+{0},"",-1,-1,1,0,""},0,0,2,3,00000000-0000-0000-0000-000000000000,
+{5006,0},
+{0,0},2,
+{1,0},
+{1,0},2,1,0,
+{"Pattern"},1,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{7,2,60,
+{-31},400,1,0,0,1,100},1,
+{3,0,0},0,
+{1,0},2,0,2,0,1,0,0,1,0,0,0,0,0,0,0,0,0},
+{0,1,0},1,
+{22,
+{26,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,8,"ДанныеЗаписиСинонимРеквизитаКонтекстноеМеню",
+{1,0},
+{1,0},0,1,0,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{1,1},0,1,0,0,0,3,3,0},1,
+{"Pattern"},
+{"Pattern"},"","",
+{0},0,0,1,
+{12,
+{27,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,0,"ДанныеЗаписиСинонимРеквизитаРасширеннаяПодсказка",
+{1,0},
+{1,0},1,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{5,0,0,3,0,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,0,
+{0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e}
+},0,1,2,
+{1,
+{1,0},0},0,0,1,0,0,1,0,3,3,0,0},3,3,0,0},77ffcc29-7f2d-4223-b22f-19666e7250ba,
+{35,
+{28,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,2,"ДанныеЗаписиКомментарийРеквизита",1,0,
+{1,1,
+{"ru","Комментарий"}
+},
+{1,0},
+{2,
+{2},
+{2}
+},
+{0},1,1,2,0,2,
+{1,0},
+{1,0},1,1,0,3,0,3,2,3,0,
+{4,0,
+{0},"",-1,-1,1,0,""},
+{4,0,
+{0},"",-1,-1,1,0,""},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{32,
+{3,0},0,0,2,2,1,2,2,2,2,2,2,2,2,2,
+{"U"},
+{"U"},"",0,
+{4,0,
+{0},"",-1,-1,1,0,""},0,0,2,3,00000000-0000-0000-0000-000000000000,
+{5006,0},
+{0,0},2,
+{1,0},
+{1,0},2,1,0,
+{"Pattern"},1,
+{0,1,0},
+{3,2,
+{87}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{7,2,60,
+{-31},400,1,0,0,1,100},1,
+{3,0,0},0,
+{1,0},2,0,2,0,1,0,0,1,0,0,0,0,0,0,0,0,0},
+{0,1,0},1,
+{22,
+{29,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,8,"ДанныеЗаписиКомментарийРеквизитаКонтекстноеМеню",
+{1,0},
+{1,0},0,1,0,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{1,1},0,1,0,0,0,3,3,0},1,
+{"Pattern"},
+{"Pattern"},"","",
+{0},0,0,1,
+{12,
+{30,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,0,"ДанныеЗаписиКомментарийРеквизитаРасширеннаяПодсказка",
+{1,0},
+{1,0},1,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{5,0,0,3,0,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,0,
+{0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e}
+},0,1,2,
+{1,
+{1,0},0},0,0,1,0,0,1,0,3,3,0,0},3,3,0,0},2,2,1,0,
+{"Pattern"},"","",2,2,0,1,
+{12,
+{4,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,0,"ДанныеЗаписиРасширеннаяПодсказка",
+{1,0},
+{1,0},1,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{5,0,0,3,0,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,0,
+{0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e}
+},0,1,2,
+{1,
+{1,0},0},0,0,1,0,0,1,0,3,3,0,0},0,0,0,1,
+{5,
+{5,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,0,"ДанныеЗаписиСтрокаПоиска",
+{1,0},
+{1,0},1,1,0,1,
+{1,0,2,
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,1,0},1,0,0},1,
+{22,
+{6,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,8,"ДанныеЗаписиСтрокаПоискаКонтекстноеМеню",
+{1,0},
+{1,0},0,1,0,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{1,1},0,1,0,0,0,3,3,0},1,
+{12,
+{7,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,0,"ДанныеЗаписиСтрокаПоискаРасширеннаяПодсказка",
+{1,0},
+{1,0},1,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{5,0,0,3,0,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,0,
+{0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e}
+},0,1,2,
+{1,
+{1,0},0},0,0,1,0,0,1,0,3,3,0,0},2,
+{1,0},0,3,3,0},1,
+{5,
+{11,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,1,"ДанныеЗаписиСостояниеПросмотра",
+{1,0},
+{1,0},1,1,0,1,
+{1,0,2,
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{7,3,0,1,100},
+{3,0,
+{0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e},3,
+{0,1,0},1,0,0},1,
+{22,
+{12,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,8,"ДанныеЗаписиСостояниеПросмотраКонтекстноеМеню",
+{1,0},
+{1,0},0,1,0,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{1,1},0,1,0,0,0,3,3,0},1,
+{12,
+{13,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,0,"ДанныеЗаписиСостояниеПросмотраРасширеннаяПодсказка",
+{1,0},
+{1,0},1,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{5,0,0,3,0,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,0,
+{0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e}
+},0,1,2,
+{1,
+{1,0},0},0,0,1,0,0,1,0,3,3,0,0},2,
+{1,1},0,3,3,0},1,
+{5,
+{8,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,2,"ДанныеЗаписиУправлениеПоиском",
+{1,0},
+{1,0},1,1,0,1,
+{1,0,
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,1,0},1,0,0,2},1,
+{22,
+{9,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,8,"ДанныеЗаписиУправлениеПоискомКонтекстноеМеню",
+{1,0},
+{1,0},0,1,0,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{1,1},0,1,0,0,0,3,3,0},1,
+{12,
+{10,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,0,"ДанныеЗаписиУправлениеПоискомРасширеннаяПодсказка",
+{1,0},
+{1,0},1,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{5,0,0,3,0,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,0,
+{0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e}
+},0,1,2,
+{1,
+{1,0},0},0,0,1,0,0,1,0,3,3,0,0},2,
+{1,2},0,3,3,0},0,1,0,0,1,0,3,3,0,1,0,0,0,0,0,0},1,0,1,
+{12,
+{52,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,0,"СтраницаЗаписьРасширеннаяПодсказка",
+{1,0},
+{1,0},1,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{5,0,0,3,0,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,0,
+{0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e}
+},0,1,2,
+{1,
+{1,0},0},0,0,1,0,0,1,0,3,3,0,0},0,3,3,0},cd5394d0-7dda-4b56-8927-93ccbe967a01,
+{22,
+{53,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,1,
+{0,
+{0,
+{"B",1},0}
+},4,"СтраницаИзмененияНаУзлахПлановОбмена",
+{1,1,
+{"ru","Обмен"}
+},
+{1,1,
+{"ru","Страница изменения на узлах планов обмена"}
+},0,1,0,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{18,
+{4,1,
+{0,544fdbe8-5956-4512-bc62-93b4c022d291},"",-1,-1,1,0,""},0,0,
+{0},
+{1,0},1,
+{"Pattern"},"",
+{3,4,
+{0}
+},0,0,3,3,0,0,0,0,
+{3,4,
+{0}
+},
+{7,3,0,1,100}
+},1,143c00f7-a42d-4cd7-9189-88e4467dc768,
+{55,
+{55,02023637-7868-4a5f-8576-835a76e0c9ba},0,2,1,
+{0,
+{0,
+{"B",1},0}
+},"ДеревоУзловОбмена",0,0,1,
+{1,0},
+{1,0},
+{1,
+{7}
+},0,1,0,0,0,0,1,0,0,0,0,0,1,0,1,1,0,1,2,2,1,1,0,0,0,1,2,0,0,1,1,
+{0},
+{4,0,
+{0},"",-1,-1,1,0,""},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,1,1,19,
+{"S",""},
+{0,1,0},
+{0},1,
+{22,
+{56,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,8,"ДеревоУзловОбменаКонтекстноеМеню",
+{1,0},
+{1,0},0,1,0,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{1,1},0,1,0,0,0,3,3,0},1,
+{22,
+{57,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,9,"ДеревоУзловОбменаКоманднаяПанель",
+{1,0},
+{1,0},0,1,0,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{0,0,0},0,1,0,0,0,3,3,0},2,cd5394d0-7dda-4b56-8927-93ccbe967a01,
+{22,
+{83,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,1,
+{0,
+{0,
+{"B",1},0}
+},2,"ДеревоУзловОбменаНаименованиеПометка",
+{1,1,
+{"ru","Дерево узлов обмена наименование пометка"}
+},
+{1,1,
+{"ru","Дерево узлов обмена наименование пометка"}
+},0,1,0,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{2,2,1,0,3,
+{4,0,
+{0},"",-1,-1,1,0,""},
+{3,4,
+{0}
+},
+{0},
+{"Pattern"},"",
+{1,0},0},2,77ffcc29-7f2d-4223-b22f-19666e7250ba,
+{35,
+{68,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,1,
+{0,
+{0,
+{"B",1},0}
+},2,"ДеревоУзловОбменаНаименование",1,0,
+{1,0},
+{1,0},
+{2,
+{7},
+{1}
+},
+{0},1,0,2,0,2,
+{1,0},
+{1,0},0,1,0,3,0,3,2,3,0,
+{4,0,
+{0},"",-1,-1,1,0,""},
+{4,0,
+{0},"",-1,-1,1,0,""},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{32,
+{3,0},0,0,2,2,1,2,2,2,2,2,2,2,2,2,
+{"U"},
+{"U"},"",0,
+{4,0,
+{0},"",-1,-1,1,0,""},0,0,2,3,00000000-0000-0000-0000-000000000000,
+{5006,0},
+{0,0},2,
+{1,0},
+{1,0},2,1,0,
+{"Pattern"},1,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{7,3,0,1,100},1,
+{3,0,0},0,
+{1,0},2,0,2,0,1,0,0,1,0,0,0,0,0,0,0,0,0},
+{0,1,0},1,
+{22,
+{69,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,8,"ДеревоУзловОбменаНаименованиеКонтекстноеМеню",
+{1,0},
+{1,0},0,1,0,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{1,1},0,1,0,0,0,3,3,0},1,
+{"Pattern"},
+{"Pattern"},"","",
+{0},0,0,1,
+{12,
+{70,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,0,"ДеревоУзловОбменаНаименованиеРасширеннаяПодсказка",
+{1,0},
+{1,0},1,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{5,0,0,3,0,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,0,
+{0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e}
+},0,1,2,
+{1,
+{1,0},0},0,0,1,0,0,1,0,3,3,0,0},3,3,0,0},77ffcc29-7f2d-4223-b22f-19666e7250ba,
+{35,
+{74,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,1,
+{0,
+{0,
+{"B",1},0}
+},2,"ДеревоУзловОбменаПометка",1,0,
+{1,1,
+{"ru","Узел"}
+},
+{1,0},
+{2,
+{7},
+{3}
+},
+{0},1,0,2,0,2,
+{1,0},
+{1,0},1,1,0,3,0,3,2,3,0,
+{4,0,
+{0},"",-1,-1,1,0,""},
+{4,0,
+{0},"",-1,-1,1,0,""},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{32,
+{3,0},0,0,2,2,1,2,2,2,2,2,2,2,2,2,
+{"U"},
+{"U"},"",0,
+{4,0,
+{0},"",-1,-1,1,0,""},0,0,2,3,00000000-0000-0000-0000-000000000000,
+{5006,0},
+{0,0},2,
+{1,0},
+{1,0},2,1,0,
+{"Pattern"},1,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{7,3,0,1,100},1,
+{3,0,0},0,
+{1,0},2,0,2,0,1,0,0,1,0,0,0,0,0,0,0,0,0},
+{0,1,0},1,
+{22,
+{75,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,8,"ДеревоУзловОбменаПометкаКонтекстноеМеню",
+{1,0},
+{1,0},0,1,0,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{1,1},0,1,0,0,0,3,3,0},1,
+{"Pattern"},
+{"Pattern"},"","",
+{0},0,0,1,
+{12,
+{76,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,0,"ДеревоУзловОбменаПометкаРасширеннаяПодсказка",
+{1,0},
+{1,0},1,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{5,0,0,3,0,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,0,
+{0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e}
+},0,1,2,
+{1,
+{1,0},0},0,0,1,0,0,1,0,3,3,0,0},3,3,0,0},1,0,1,
+{12,
+{84,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,0,"ДеревоУзловОбменаНаименованиеПометкаРасширеннаяПодсказка",
+{1,0},
+{1,0},1,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{5,0,0,3,0,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,0,
+{0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e}
+},0,1,2,
+{1,
+{1,0},0},0,0,1,0,0,1,0,3,3,0,0},0,3,3,0},77ffcc29-7f2d-4223-b22f-19666e7250ba,
+{35,
+{80,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,1,
+{0,
+{0,
+{"B",1},0}
+},2,"ДеревоУзловОбменаКод",1,0,
+{1,0},
+{1,0},
+{2,
+{7},
+{5}
+},
+{0},1,1,2,0,2,
+{1,0},
+{1,0},1,1,0,3,0,3,2,3,0,
+{4,0,
+{0},"",-1,-1,1,0,""},
+{4,0,
+{0},"",-1,-1,1,0,""},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{32,
+{3,0},0,0,2,2,1,2,2,2,2,2,2,2,2,2,
+{"U"},
+{"U"},"",0,
+{4,0,
+{0},"",-1,-1,1,0,""},0,0,2,3,00000000-0000-0000-0000-000000000000,
+{5006,0},
+{0,0},2,
+{1,0},
+{1,0},2,1,0,
+{"Pattern"},1,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{7,3,0,1,100},1,
+{3,0,0},0,
+{1,0},2,0,2,0,1,0,0,1,0,0,0,0,0,0,0,0,0},
+{0,1,0},1,
+{22,
+{81,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,8,"ДеревоУзловОбменаКодКонтекстноеМеню",
+{1,0},
+{1,0},0,1,0,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{1,1},0,1,0,0,0,3,3,0},1,
+{"Pattern"},
+{"Pattern"},"","",
+{0},0,0,1,
+{12,
+{82,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,0,"ДеревоУзловОбменаКодРасширеннаяПодсказка",
+{1,0},
+{1,0},1,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{5,0,0,3,0,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,0,
+{0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e}
+},0,1,2,
+{1,
+{1,0},0},0,0,1,0,0,1,0,3,3,0,0},3,3,0,0},2,2,1,0,
+{"Pattern"},"","",2,2,0,1,
+{12,
+{58,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,0,"ДеревоУзловОбменаРасширеннаяПодсказка",
+{1,0},
+{1,0},1,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{5,0,0,3,0,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,0,
+{0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e}
+},0,1,2,
+{1,
+{1,0},0},0,0,1,0,0,1,0,3,3,0,0},0,0,0,1,
+{5,
+{59,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,0,"ДеревоУзловОбменаСтрокаПоиска",
+{1,0},
+{1,0},1,1,0,1,
+{1,0,2,
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,1,0},1,0,0},1,
+{22,
+{60,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,8,"ДеревоУзловОбменаСтрокаПоискаКонтекстноеМеню",
+{1,0},
+{1,0},0,1,0,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{1,1},0,1,0,0,0,3,3,0},1,
+{12,
+{61,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,0,"ДеревоУзловОбменаСтрокаПоискаРасширеннаяПодсказка",
+{1,0},
+{1,0},1,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{5,0,0,3,0,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,0,
+{0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e}
+},0,1,2,
+{1,
+{1,0},0},0,0,1,0,0,1,0,3,3,0,0},2,
+{55,0},0,3,3,0},1,
+{5,
+{62,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,1,"ДеревоУзловОбменаСостояниеПросмотра",
+{1,0},
+{1,0},1,1,0,1,
+{1,0,2,
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{7,3,0,1,100},
+{3,0,
+{0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e},3,
+{0,1,0},1,0,0},1,
+{22,
+{63,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,8,"ДеревоУзловОбменаСостояниеПросмотраКонтекстноеМеню",
+{1,0},
+{1,0},0,1,0,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{1,1},0,1,0,0,0,3,3,0},1,
+{12,
+{64,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,0,"ДеревоУзловОбменаСостояниеПросмотраРасширеннаяПодсказка",
+{1,0},
+{1,0},1,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{5,0,0,3,0,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,0,
+{0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e}
+},0,1,2,
+{1,
+{1,0},0},0,0,1,0,0,1,0,3,3,0,0},2,
+{55,1},0,3,3,0},1,
+{5,
+{65,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,2,"ДеревоУзловОбменаУправлениеПоиском",
+{1,0},
+{1,0},1,1,0,1,
+{1,0,
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,1,0},1,0,0,2},1,
+{22,
+{66,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,8,"ДеревоУзловОбменаУправлениеПоискомКонтекстноеМеню",
+{1,0},
+{1,0},0,1,0,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{1,1},0,1,0,0,0,3,3,0},1,
+{12,
+{67,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,0,"ДеревоУзловОбменаУправлениеПоискомРасширеннаяПодсказка",
+{1,0},
+{1,0},1,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{5,0,0,3,0,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,0,
+{0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e}
+},0,1,2,
+{1,
+{1,0},0},0,0,1,0,0,1,0,3,3,0,0},2,
+{55,2},0,3,3,0},0,1,0,0,1,0,3,3,0,1,0,0,0,0,1,0},1,0,1,
+{12,
+{54,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,0,"СтраницаИзмененияНаУзлахПлановОбменаРасширеннаяПодсказка",
+{1,0},
+{1,0},1,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{5,0,0,3,0,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,0,
+{0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e}
+},0,1,2,
+{1,
+{1,0},0},0,0,1,0,0,1,0,3,3,0,0},0,3,3,0},cd5394d0-7dda-4b56-8927-93ccbe967a01,
+{22,
+{85,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,1,
+{0,
+{0,
+{"B",1},0}
+},4,"СтраницаПредставлениеXML",
+{1,1,
+{"ru","XML"}
+},
+{1,1,
+{"ru","Страница представление XML"}
+},0,1,0,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{18,
+{4,3,
+{0},"",-1,-1,0,
+{
+{#base64:iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAO
+xAGVKw4bAAAA6ElEQVR4XsVTTcqDMBAdY1aucpReoa6F2vYgehS39Q79vk26E72C
+N2mh4kpNM8EREkxBXPTBwGN+3vxEA3DQ970CP17ajlEUteRgsIIkSVatKAoBAI1u
+cqBcDh783f/BxeV6RiLyPEcRMwmDjaiqyprECOwR4bABtBato1cRDHbi9wKcyPy2
+DXIpJRCGYYRpnPwTOMWivJXLh4Oc8xBYyPwCVKwLBDreXYfXRjMckaYnI+SCRn/G
+caweUirNleaWoQ9jxN0Yhw1w77McD6cgxSzLqIPh1BVz5lyrPnCP+O031ndq67q2
+Ah8noKh5bDMrxgAAAABJRU5ErkJggg==}
+},0,""},0,0,
+{0},
+{1,0},1,
+{"Pattern"},"",
+{3,4,
+{0}
+},0,0,3,3,0,0,0,0,
+{3,4,
+{0}
+},
+{7,3,0,1,100}
+},1,77ffcc29-7f2d-4223-b22f-19666e7250ba,
+{35,
+{87,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,1,
+{0,
+{0,
+{"B",1},0}
+},7,"ДанныеОбъектаXMLТекст",0,0,
+{1,1,
+{"ru","XML"}
+},
+{1,0},
+{1,
+{8}
+},
+{0},1,0,2,0,2,
+{1,0},
+{1,0},1,1,0,3,0,3,1,3,0,
+{4,0,
+{0},"",-1,-1,1,0,""},
+{4,0,
+{0},"",-1,-1,1,0,""},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{5,50,10,1,1,0,
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{7,2,3,
+{-31},100,"Consolas",1,100},1,0,0,1,0,
+{0,1,0}
+},
+{0,1,0},1,
+{22,
+{88,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,8,"ДанныеОбъектаXMLТекстКонтекстноеМеню",
+{1,0},
+{1,0},0,1,0,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{1,1},0,1,0,0,0,3,3,0},1,
+{"Pattern"},
+{"Pattern"},"","",
+{0},0,0,1,
+{12,
+{89,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,0,"ДанныеОбъектаXMLТекстРасширеннаяПодсказка",
+{1,0},
+{1,0},1,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{5,0,0,3,0,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,0,
+{0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e}
+},0,1,2,
+{1,
+{1,0},0},0,0,1,0,0,1,0,3,3,0,0},3,3,0,0},1,0,1,
+{12,
+{86,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,0,"СтраницаПредставлениеXMLРасширеннаяПодсказка",
+{1,0},
+{1,0},1,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{5,0,0,3,0,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,0,
+{0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e}
+},0,1,2,
+{1,
+{1,0},0},0,0,1,0,0,1,0,3,3,0,0},0,3,3,0},1,0,1,
+{12,
+{50,02023637-7868-4a5f-8576-835a76e0c9ba},0,0,0,0,"СтраницыФормыРасширеннаяПодсказка",
+{1,0},
+{1,0},1,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{5,0,0,3,0,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,0,
+{0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e}
+},0,1,2,
+{1,
+{1,0},0},0,0,1,0,0,1,0,3,3,0,0},0,3,3,0},"","",1,
+{22,
+{0},0,0,0,7,"Navigator",
+{1,0},
+{1,0},0,1,0,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},0,0,1,0,1,
+{12,
+{0},0,0,0,0,"NavigatorExtendedTooltip",
+{1,0},
+{1,0},1,0,0,2,2,
+{3,4,
+{0}
+},
+{7,3,0,1,100},
+{0,0,0},1,
+{5,0,0,3,0,
+{0,1,0},
+{3,4,
+{0}
+},
+{3,4,
+{0}
+},
+{3,0,
+{0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e}
+},0,1,2,
+{1,
+{1,0},0},0,0,1,0,0,1,0,3,3,0,0},0,3,3,0},1,"",0,0,0,0,0,0,3,3,0,0,0,100,1,1,0,0,0,
+{49,0}
+},"#Область Форма
+
+#Область События
+
+&НаСервере
+Процедура ПриСозданииНаСервере(Отказ, СтандартнаяОбработка)
+	
+	Навигатор = ЭтаОбработка();
+	
+	ОбъектБазы = Параметры.ОбъектБазы;
+	
+	ПараметрыЗаписиТаблицы = ДанныеФормыВСтруктуру(Параметры);
+	ПараметрыЗаписи = ПараметрыЗаписиТаблицы.ПараметрыЗаписи;
+	
+	Если ПараметрыЗаписи.ТипТаблицы = ""ТабличнаяЧасть"" Тогда
+		
+		ДанныеЗаписиОбъекта = ОбъектБазы[ПараметрыЗаписи.ИмяТаблицы][ПараметрыЗаписиТаблицы.ПараметрыЗаписи.НомерЗаписи - 1];
+		
+		МетаданныеОбъекта = ОбъектБазы.Метаданные();
+		
+		дз_ДанныеЗаписи = РеквизитФормыВЗначение(""ДанныеЗаписи"");
+		дз_ДанныеЗаписи.Строки.Очистить();
+		
+		стр_ДанныеЗаписи = дз_ДанныеЗаписи.Строки.Добавить();
+		стр_ДанныеЗаписи.ИмяРеквизита       = ""НомерСтроки"";
+		стр_ДанныеЗаписи.ЗначениеРеквизита  = ПараметрыЗаписиТаблицы.ПараметрыЗаписи.НомерЗаписи;
+		стр_ДанныеЗаписи.СинонимРеквизита   = ""№"";
+		стр_ДанныеЗаписи.ТипРеквизита       = ""Число"";
+		стр_ДанныеЗаписи.ПредставлениеТипа  = ""Число"";
+		стр_ДанныеЗаписи.ИндексКартинки     = 44;
+		стр_ДанныеЗаписи.ТолькоПросмотр     = Истина;
+		
+		стр_ДанныеЗаписи = дз_ДанныеЗаписи.Строки.Добавить();
+		стр_ДанныеЗаписи.ИмяРеквизита       = ""Регистратор"";
+		стр_ДанныеЗаписи.ЗначениеРеквизита  = ОбъектБазы;
+		стр_ДанныеЗаписи.СинонимРеквизита   = ""Регистратор"";
+		стр_ДанныеЗаписи.ТипРеквизита       = ТипЗнч(ОбъектБазы);
+		
+		МассивТипов = Новый Массив;
+		МассивТипов.Добавить(ТипЗнч(ОбъектБазы));
+		
+		стр_ДанныеЗаписи.ПредставлениеТипа  = Навигатор.СтрокаОписанияТипов(Новый ОписаниеТипов(МассивТипов));
+		стр_ДанныеЗаписи.ИндексКартинки     = 44;
+		стр_ДанныеЗаписи.ТолькоПросмотр     = Истина;
+		
+		Для каждого РеквизитТЧ Из МетаданныеОбъекта.ТабличныеЧасти[ПараметрыЗаписи.ИмяТаблицы].Реквизиты Цикл
+			
+			стр_ДанныеЗаписи = дз_ДанныеЗаписи.Строки.Добавить();
+			стр_ДанныеЗаписи.ИмяРеквизита         = РеквизитТЧ.Имя;
+			стр_ДанныеЗаписи.ЗначениеРеквизита    = ДанныеЗаписиОбъекта[РеквизитТЧ.Имя];
+			стр_ДанныеЗаписи.ТипРеквизита         = РеквизитТЧ.Тип;
+			стр_ДанныеЗаписи.СинонимРеквизита     = РеквизитТЧ.Синоним;
+			стр_ДанныеЗаписи.КомментарийРеквизита = РеквизитТЧ.Комментарий;
+			стр_ДанныеЗаписи.ПредставлениеТипа    = Навигатор.СтрокаОписанияТипов(РеквизитТЧ.Тип);
+			стр_ДанныеЗаписи.ИндексКартинки       = 45;
+			
+		КонецЦикла;
+		
+	ИначеЕсли ПараметрыЗаписи.ТипТаблицы = ""РегистрНакопления"" 
+		Или ПараметрыЗаписи.ТипТаблицы = ""РегистрСведений"" 
+		Или ПараметрыЗаписи.ТипТаблицы = ""РегистрРасчета"" Тогда
+		
+		МетаданныеРегистра = МетаданныеРегистраПоОписанию(ПараметрыЗаписиТаблицы.ПараметрыЗаписи);
+		
+		ПредставлениеЗаписи = ""(.) ["" + ПараметрыЗаписи.ТипТаблицы + ""]["" + ПараметрыЗаписи.ИмяТаблицы + ""]"";
+		
+		Если ПараметрыЗаписи.ТипТаблицы = ""РегистрНакопления"" Или ПараметрыЗаписи.ТипТаблицы = ""РегистрРасчета"" Тогда
+			
+			НаборЗаписей = РегистрыНакопления[ПараметрыЗаписи.ИмяТаблицы].СоздатьНаборЗаписей();
+			НаборЗаписей.Отбор.Регистратор.Установить(ОбъектБазы);
+			НаборЗаписей.Прочитать();
+			
+			НомерЗаписи = Неопределено;
+			
+			Если Навигатор.ЕстьРеквизитИлиСвойствоОбъекта(ПараметрыЗаписиТаблицы, ""НомерЗаписи"") Тогда
+				НомерЗаписи = ПараметрыЗаписиТаблицы.НомерЗаписи - 1;
+			ИначеЕсли Навигатор.ЕстьРеквизитИлиСвойствоОбъекта(ПараметрыЗаписиТаблицы, ""ПараметрыЗаписи"") Тогда
+				НомерЗаписи = ПараметрыЗаписиТаблицы.ПараметрыЗаписи.НомерЗаписи - 1;
+			КонецЕсли;
+			
+			ЗаписьРегистра = НаборЗаписей.Получить(НомерЗаписи);
+			
+		ИначеЕсли ПараметрыЗаписи.ТипТаблицы = ""РегистрСведений"" Тогда
+			
+			НаборЗаписей = РегистрыСведений[ПараметрыЗаписи.ИмяТаблицы].СоздатьНаборЗаписей();
+			
+			Если МетаданныеРегистра.РежимЗаписи = Метаданные.СвойстваОбъектов.РежимЗаписиРегистра.ПодчинениеРегистратору Тогда
+				
+				НаборЗаписей.Отбор.Регистратор.Установить(ОбъектБазы);
+				НаборЗаписей.Прочитать();
+				
+				ЗаписьРегистра = НаборЗаписей.Получить(ПараметрыЗаписиТаблицы.ПараметрыЗаписи.НомерЗаписи - 1);
+				ПредставлениеЗаписи = ПредставлениеЗаписи + ""["" + ОбъектБазы + ""]"" + ""["" + ПараметрыЗаписиТаблицы.ПараметрыЗаписи.НомерЗаписи - 1 + ""]"";
+				
+			Иначе
+				
+				Если Не (МетаданныеРегистра.ПериодичностьРегистраСведений = Метаданные.СвойстваОбъектов.ПериодичностьРегистраСведений.Непериодический) Тогда
+					НаборЗаписей.Отбор.Период.Установить(ПараметрыЗаписиТаблицы.Период);
+					ПредставлениеЗаписи = ПредставлениеЗаписи + ""["" + ПараметрыЗаписиТаблицы.Период + ""]"";
+				КонецЕсли;
+				
+				Для каждого Измерение Из МетаданныеРегистра.Измерения Цикл
+					НаборЗаписей.Отбор[Измерение.Имя].Установить(ПараметрыЗаписиТаблицы.Измерения[Измерение.Имя]);
+					ПредставлениеЗаписи = ПредставлениеЗаписи + ""["" + ПараметрыЗаписиТаблицы.Измерения[Измерение.Имя] + ""]"";
+				КонецЦикла;
+				
+				НаборЗаписей.Прочитать();
+				
+				Попытка
+					ЗаписьРегистра = НаборЗаписей.Получить(0);
+				Исключение
+					
+					ПредставлениеОшибки = ПодробноеПредставлениеОшибки(ИнформацияОбОшибке());
+					
+					ТекстСообщения = СтрШаблон(
+						""При чтении записи регистра сведений произошла ошибка:
+						|%1"", ПредставлениеОшибки);
+					
+					Сообщить(ТекстСообщения);
+					
+					СтандартнаяОбработка = Ложь;
+					Отказ = Истина;
+					
+					Возврат;
+					
+				КонецПопытки;
+				
+			КонецЕсли;
+			
+			// TODO Сделать общую функцию для отображения конкретной записи в виде XML
+			
+			// Отобразить данные в виде XML
+			
+			ДанныеОбъектаXML = """";
+			
+			ЗаписьXML = Новый ЗаписьXML;
+			ЗаписьXML.УстановитьСтроку();
+			
+			ЗаписатьXML(ЗаписьXML, НаборЗаписей);
+			ДанныеОбъектаXML = ЗаписьXML.Закрыть();
+			ДанныеОбъектаXMLТекст.УстановитьТекст(ДанныеОбъектаXML);
+			
+			// Отобразить данные регистрации на узлах обмена
+			
+			ЗаполнитьИзмененияНаУзлахОбмена(НаборЗаписей);
+			
+		КонецЕсли;
+		
+		дз_ДанныеЗаписи = РеквизитФормыВЗначение(""ДанныеЗаписи"");
+		дз_ДанныеЗаписи.Строки.Очистить();
+		
+		Если ПараметрыЗаписиТаблицы.Свойство(""НомерЗаписи"") Тогда
+			
+			стр_ДанныеЗаписи = дз_ДанныеЗаписи.Строки.Добавить();
+			стр_ДанныеЗаписи.ИмяРеквизита      = ""НомерСтроки"";
+			стр_ДанныеЗаписи.ЗначениеРеквизита = ПараметрыЗаписиТаблицы.НомерЗаписи;
+			стр_ДанныеЗаписи.СинонимРеквизита  = ""№"";
+			стр_ДанныеЗаписи.ТипРеквизита      = ""Число"";
+			стр_ДанныеЗаписи.ПредставлениеТипа = ""Число"";
+			стр_ДанныеЗаписи.ИндексКартинки    = 44;
+			стр_ДанныеЗаписи.ТолькоПросмотр     = Истина;
+			
+		КонецЕсли;
+		
+		Если ПараметрыЗаписиТаблицы.Свойство(""Регистратор"") Тогда
+			
+			стр_ДанныеЗаписи = дз_ДанныеЗаписи.Строки.Добавить();
+			стр_ДанныеЗаписи.ИмяРеквизита       = ""Регистратор"";
+			стр_ДанныеЗаписи.ЗначениеРеквизита  = ОбъектБазы;
+			стр_ДанныеЗаписи.СинонимРеквизита   = ""Регистратор"";
+			стр_ДанныеЗаписи.ТипРеквизита       = ТипЗнч(ОбъектБазы);
+			стр_ДанныеЗаписи.ТолькоПросмотр     = Истина;
+			
+			Типы = Новый Массив;
+			Типы.Добавить(ТипЗнч(ОбъектБазы));
+			
+			стр_ДанныеЗаписи.ПредставлениеТипа  = Навигатор.СтрокаОписанияТипов(Новый ОписаниеТипов(Типы));
+			стр_ДанныеЗаписи.ИндексКартинки = 44;
+			
+		КонецЕсли;
+		
+		Для каждого СтРеквизит Из МетаданныеРегистра.СтандартныеРеквизиты Цикл
+			
+			Если СтРеквизит.Имя = ""НомерСтроки"" Тогда
+				Продолжить;
+			КонецЕсли;
+			
+			Если СтРеквизит.Имя = ""Регистратор"" Тогда
+				Продолжить;
+			КонецЕсли;
+			
+			стр_ДанныеЗаписи = дз_ДанныеЗаписи.Строки.Добавить();
+			
+			стр_ДанныеЗаписи.ИмяРеквизита         = СтРеквизит.Имя;
+			стр_ДанныеЗаписи.ЗначениеРеквизита    = ЗаписьРегистра[СтРеквизит.Имя];
+			стр_ДанныеЗаписи.ТипРеквизита         = СтРеквизит.Тип;
+			стр_ДанныеЗаписи.СинонимРеквизита     = СтРеквизит.Синоним;
+			стр_ДанныеЗаписи.КомментарийРеквизита = СтРеквизит.Комментарий;
+			стр_ДанныеЗаписи.ПредставлениеТипа    = Навигатор.СтрокаОписанияТипов(СтРеквизит.Тип);
+			стр_ДанныеЗаписи.ИндексКартинки       = 44;
+			
+		КонецЦикла;
+		
+		Для каждого Измерение Из МетаданныеРегистра.Измерения Цикл
+			
+			стр_ДанныеЗаписи = дз_ДанныеЗаписи.Строки.Добавить();
+			
+			стр_ДанныеЗаписи.ИмяРеквизита         = Измерение.Имя;
+			стр_ДанныеЗаписи.ЗначениеРеквизита    = ЗаписьРегистра[Измерение.Имя];
+			стр_ДанныеЗаписи.ТипРеквизита         = Измерение.Тип;
+			стр_ДанныеЗаписи.СинонимРеквизита     = Измерение.Синоним;
+			стр_ДанныеЗаписи.КомментарийРеквизита = Измерение.Комментарий;
+			стр_ДанныеЗаписи.ПредставлениеТипа    = Навигатор.СтрокаОписанияТипов(Измерение.Тип);
+			стр_ДанныеЗаписи.ИндексКартинки       = 47;
+			
+		КонецЦикла;
+		
+		Для каждого Ресурс Из МетаданныеРегистра.Ресурсы Цикл
+			
+			стр_ДанныеЗаписи = дз_ДанныеЗаписи.Строки.Добавить();
+			
+			стр_ДанныеЗаписи.ИмяРеквизита         = Ресурс.Имя;
+			стр_ДанныеЗаписи.ЗначениеРеквизита    = ЗаписьРегистра[Ресурс.Имя];
+			стр_ДанныеЗаписи.ТипРеквизита         = Ресурс.Тип;
+			стр_ДанныеЗаписи.СинонимРеквизита     = Ресурс.Синоним;
+			стр_ДанныеЗаписи.КомментарийРеквизита = Ресурс.Комментарий;
+			стр_ДанныеЗаписи.ПредставлениеТипа    = Навигатор.СтрокаОписанияТипов(Ресурс.Тип);
+			стр_ДанныеЗаписи.ИндексКартинки       = 48;
+			
+		КонецЦикла;
+		
+		Для каждого Реквизит Из МетаданныеРегистра.Реквизиты Цикл
+			
+			стр_ДанныеЗаписи = дз_ДанныеЗаписи.Строки.Добавить();
+			
+			стр_ДанныеЗаписи.ИмяРеквизита         = Реквизит.Имя;
+			стр_ДанныеЗаписи.ЗначениеРеквизита    = ЗаписьРегистра[Реквизит.Имя];
+			стр_ДанныеЗаписи.ТипРеквизита         = Реквизит.Тип;
+			стр_ДанныеЗаписи.СинонимРеквизита     = Реквизит.Синоним;
+			стр_ДанныеЗаписи.КомментарийРеквизита = Реквизит.Комментарий;
+			стр_ДанныеЗаписи.ПредставлениеТипа    = Навигатор.СтрокаОписанияТипов(Реквизит.Тип);
+			стр_ДанныеЗаписи.ИндексКартинки       = 45;
+			
+		КонецЦикла;
+		
+		Если ПараметрыЗаписи.ТипТаблицы = ""РегистрРасчета"" Тогда
+			
+			Для каждого Перерасчет Из МетаданныеРегистра.Перерасчеты Цикл
+				
+				стр_ДанныеЗаписи = дз_ДанныеЗаписи.Строки.Добавить();
+				
+				стр_ДанныеЗаписи.ИмяРеквизита         = Перерасчет.Имя;
+				стр_ДанныеЗаписи.ЗначениеРеквизита    = ЗаписьРегистра[Перерасчет.Имя];
+				стр_ДанныеЗаписи.ТипРеквизита         = Перерасчет.Тип;
+				стр_ДанныеЗаписи.СинонимРеквизита     = Перерасчет.Синоним;
+				стр_ДанныеЗаписи.КомментарийРеквизита = Перерасчет.Комментарий;
+				стр_ДанныеЗаписи.ПредставлениеТипа    = Навигатор.СтрокаОписанияТипов(Перерасчет.Тип);
+				стр_ДанныеЗаписи.ИндексКартинки       = 45; // Надо картинку перерасчета
+				
+			КонецЦикла;
+			
+		КонецЕсли;
+		
+	КонецЕсли;
+	
+	дз_ДанныеЗаписиДоИзменения = РеквизитФормыВЗначение(""ДанныеЗаписиДоИзменения"");
+	дз_ДанныеЗаписиДоИзменения.Строки.Очистить();
+	
+	Для каждого стр_ДанныеЗаписи Из дз_ДанныеЗаписи.Строки Цикл
+		стр_ДанныеЗаписиДоИзменения = дз_ДанныеЗаписиДоИзменения.Строки.Добавить();
+		ЗаполнитьЗначенияСвойств(стр_ДанныеЗаписиДоИзменения, стр_ДанныеЗаписи);
+	КонецЦикла;
+	
+	ЗначениеВРеквизитФормы(дз_ДанныеЗаписи, ""ДанныеЗаписи"");
+	ЗначениеВРеквизитФормы(дз_ДанныеЗаписиДоИзменения, ""ДанныеЗаписиДоИзменения"");
+	
+	ПредставлениеЗаписи = """";
+	Заголовок = ПараметрыЗаписи.ТипТаблицы + ""."" + ПараметрыЗаписи.ИмяТаблицы;
+	
+КонецПроцедуры
+
+&НаКлиенте
+Процедура ОбработкаОповещения(ИмяСобытия, Параметр, Источник)
+	
+	Если Источник = ""Навигатор"" Тогда
+		
+		Если ИмяСобытия = ""ЗакрытьВсеОкнаРедакторов"" Тогда
+			Закрыть();
+		КонецЕсли;
+		
+	КонецЕсли;
+	
+КонецПроцедуры
+
+&НаКлиенте
+Процедура ПриОткрытии(Отказ)
+	
+	РазвернутьЭлементыДереваЗначений(ДеревоУзловОбмена, ""ДеревоУзловОбмена"");
+	
+КонецПроцедуры
+
+#КонецОбласти
+
+#Область Команда
+
+&НаКлиенте
+Процедура КомандаЗаписатьИзменения(Команда)
+	
+	ЗаписьИзменена = Ложь;
+	ПредставлениеОшибки = """";
+	
+	ЗаписатьИзменения(ЗаписьИзменена, ПредставлениеОшибки);
+	
+	Если ЗаписьИзменена Тогда
+		ПоказатьОповещениеПользователя(""Изменение"", , ""Запись регистра сведений успешно изменена."", Элементы.КартинкаУспешно32.Картинка);
+	Иначе
+		
+		Если ЗначениеЗаполнено(ПредставлениеОшибки) Тогда
+			Пояснение = СтрШаблон(
+				""При изменении записи регистра произошла ошибка:
+				|%1"", ПредставлениеОшибки);
+		Иначе
+			Пояснение = ""При изменении записи регистра произошла ошибка."";
+		КонецЕсли;
+		
+		ПоказатьОповещениеПользователя(""Изменение"", , Пояснение, Элементы.КартинкаОшибка32.Картинка);
+		
+	КонецЕсли;
+	
+КонецПроцедуры
+
+&НаКлиенте
+Процедура КомандаУдалитьЗапись(Команда)
+	
+	ТекстВопроса = """";
+	ТекстЗаголовка = """";
+	
+	Если ПараметрыЗаписи.ТипТаблицы = ""ТабличнаяЧасть"" Тогда
+		ТекстВопроса = ""Удалить строку табличной части?"";
+		ТекстЗаголовка = ""Удаление строки"";
+	Иначе
+		ТекстВопроса = ""Удалить запись регистра?"";
+		ТекстЗаголовка = ""Удаление записи"";
+	КонецЕсли; 
+	
+	ПоказатьВопрос(
+		Новый ОписаниеОповещения(""КомандаУдалитьЗаписьЗавершение"", ЭтаФорма),
+		ТекстВопроса, 
+		РежимДиалогаВопрос.ДаНет, 
+		120, 
+		КодВозвратаДиалога.Нет, 
+		ТекстЗаголовка
+	);
+	
+КонецПроцедуры
+
+&НаКлиенте
+Процедура КомандаУдалитьЗаписьЗавершение(РезультатВопроса, ДпПараметры) Экспорт
+	
+	#Область Предусловия
+	
+	Если РезультатВопроса = Неопределено Тогда
+		Возврат;
+	КонецЕсли;
+	
+	Если РезультатВопроса = КодВозвратаДиалога.Нет Тогда
+		Возврат;
+	КонецЕсли;
+	
+	#КонецОбласти
+	
+	УдалитьЗапись();
+	
+	Закрыть();
+	
+КонецПроцедуры
+
+#КонецОбласти 
+
+#Область Таблицы
+
+#Область ДанныеЗаписи
+
+&НаКлиенте
+Процедура ДанныеЗаписиВыбор(Элемент, ВыбраннаяСтрока, Поле, СтандартнаяОбработка)
+	
+	#Область Предусловия
+	
+	ТекущиеДанные = Элементы.ДанныеЗаписи.ТекущиеДанные;
+	
+	Если ТекущиеДанные = Неопределено Тогда
+		Возврат;
+	КонецЕсли;
+	
+	#КонецОбласти
+	
+	СтандартнаяОбработка = Ложь;
+	
+	Если Поле.Имя = ""ДанныеЗаписиПредставлениеТипа"" Тогда
+		
+		ОпределительСписка = ТекущиеДанные.ПредставлениеТипа;
+		Оповестить(""ОткрытьСписокЭлементов"", ОпределительСписка, ""Навигатор_ФормаРедакторЗаписи"");
+		
+	Иначе
+		
+		ИмяРеквизитаДЗ = Сред(Поле.Имя, СтрДлина(""ДанныеЗаписи"") + 1);
+		
+		ЗначениеРеквизита = ТекущиеДанные[ИмяРеквизитаДЗ];
+		ПараметрыОткрытия = Новый Структура(""ОбъектБазы"", ЗначениеРеквизита);
+		
+		ИмяФормыРедактора = ИмяФормыРедактораЗначения(ЗначениеРеквизита);
+		
+		Если Не ЗначениеЗаполнено(ИмяФормыРедактора) Тогда
+			Возврат;
+		КонецЕсли;
+		
+		ПараметрыФормы = Новый Структура(""ОбъектБазы"", ЗначениеРеквизита);
+		
+		ПолноеИмяФормы = ПолноеИмяФормыОбработки(ЭтаФорма.ИмяФормы, ИмяФормыРедактора);
+		ОткрытьФорму(ПолноеИмяФормы, ПараметрыФормы, ЭтаФорма, Истина);
+		
+	КонецЕсли;
+	
+КонецПроцедуры
+
+&НаКлиенте
+Процедура ДанныеЗаписиЗначениеРеквизитаПриИзменении(Элемент)
+	
+	#Область Предусловия
+	
+	ТекущиеДанные = Элементы.ДанныеЗаписи.ТекущиеДанные;
+	
+	Если ТекущиеДанные = Неопределено Тогда
+		Возврат;
+	КонецЕсли;
+	
+	#КонецОбласти
+	
+	ТекущиеДанные.Изменен = Истина;
+	Модифицированность = Истина;
+	
+КонецПроцедуры
+
+#КонецОбласти 
+
+#КонецОбласти 
+
+#КонецОбласти
+
+#Область Методы
+
+#Область ИнтерфейсНавигатора
+
+&НаСервере
+Функция ИмяФормыРедактораЗначения(ЗначениеДляРедактирования)
+	Возврат ЭтаОбработка().ИмяФормыРедактораЗначения(ЗначениеДляРедактирования);
+КонецФункции
+
+#КонецОбласти
+
+&НаСервере
+Процедура ЗаполнитьИзмененияНаУзлахОбмена(ЗаписьРегистра)
+	
+	Навигатор = ЭтаОбработка();
+	
+	дз_ДеревоУзловОбмена = РеквизитФормыВЗначение(""ДеревоУзловОбмена"");
+	
+	Навигатор.ЗаполнитьИзмененияНаУзлахОбмена(ЗаписьРегистра, дз_ДеревоУзловОбмена);
+	
+	ЗначениеВРеквизитФормы(дз_ДеревоУзловОбмена, ""ДеревоУзловОбмена"");
+	
+КонецПроцедуры
+
+&НаКлиенте
+Процедура РазвернутьЭлементыДереваЗначений(ДеревоЗначений, ИмяЭлементаФормы)
+	
+	ЭлементыДерева = ДеревоЗначений.ПолучитьЭлементы();
+	
+	Для каждого ЭлементДерева Из ЭлементыДерева Цикл
+		
+		ИдЭлемента = ЭлементДерева.ПолучитьИдентификатор();
+		Элементы[ИмяЭлементаФормы].Развернуть(ИдЭлемента, Истина);
+		
+	КонецЦикла;
+	
+КонецПроцедуры
+
+&НаКлиентеНаСервереБезКонтекста
+Функция ДанныеФормыВСтруктуру(ДанныеФормы) Экспорт
+	
+	Массив = Новый Массив;
+	Массив.Добавить(ДанныеФормы);
+	
+	Запись = Новый ЗаписьFastInfoset;
+	Запись.УстановитьДвоичныеДанные();
+	
+	СериализаторXDTO.ЗаписатьXML(Запись, Массив);
+	
+	Чтение = Новый ЧтениеFastInfoset;
+	Чтение.УстановитьДвоичныеДанные(Запись.Закрыть());
+	Результат = Новый Структура;
+	
+	Пока Чтение.Прочитать() Цикл
+		
+		Если Чтение.Имя = ""field"" И Чтение.ТипУзла = ТипУзлаXML.НачалоЭлемента Тогда
+			
+			ИмяПоля = Чтение.ЗначениеАтрибута(""nameRu"");
+			
+			Если ИмяПоля = Неопределено Тогда
+				ИмяПоля = Чтение.ЗначениеАтрибута(""name"");
+			КонецЕсли;
+			
+			Если ИмяПоля <> Неопределено Тогда
+				Результат.Вставить(ИмяПоля);
+			КонецЕсли;
+			
+		КонецЕсли;
+		
+	КонецЦикла;
+	
+	ЗаполнитьЗначенияСвойств(Результат, ДанныеФормы);
+	Возврат Результат
+	
+КонецФункции
+
+&НаСервере
+Процедура ЗаписатьИзменения(ЗаписьИзменена, ПредставлениеОшибки = """")
+	
+	дз_ДанныеЗаписи = РеквизитФормыВЗначение(""ДанныеЗаписи"");
+	
+	Если (ПараметрыЗаписи.ТипТаблицы = ""ТабличнаяЧасть"") Тогда
+		
+		ДанныеОбъекта = ОбъектБазы.ПолучитьОбъект();
+		СтрокаТаблЧасти = ДанныеОбъекта[ПараметрыЗаписи.ИмяТаблицы][ПараметрыЗаписи.НомерЗаписи - 1];
+		
+		ОбъектБазыМд = ОбъектБазы.Метаданные();
+		
+		Для каждого РеквизитТЧ Из ОбъектБазыМд.ТабличныеЧасти[ПараметрыЗаписи.ИмяТаблицы].Реквизиты Цикл
+			
+			стр_ДанныеЗаписиИзм = дз_ДанныеЗаписи.Строки.Найти(РеквизитТЧ.Имя, ""ИмяРеквизита"");
+			
+			Если стр_ДанныеЗаписиИзм.Изменен = Ложь Тогда
+				Продолжить;
+			КонецЕсли;
+			
+			СтрокаТаблЧасти[РеквизитТЧ.Имя] = стр_ДанныеЗаписиИзм.ЗначениеРеквизита;
+			
+		КонецЦикла;
+		
+		Если ДанныеОбъекта.Модифицированность() Тогда
+			ДанныеОбъекта.Записать();
+			Модифицированность = Ложь;
+		КонецЕсли;
+		
+	Иначе
+		
+		Если ПараметрыЗаписи.ТипТаблицы = ""РегистрНакопления"" Тогда
+			
+			Регистр = РегистрыНакопления[ПараметрыЗаписи.ИмяТаблицы];
+			МетаданныеРегистра = Метаданные.РегистрыНакопления[ПараметрыЗаписи.ИмяТаблицы];
+			
+			НаборЗаписей = Регистр.СоздатьНаборЗаписей();
+			НаборЗаписей.Отбор.Регистратор.Установить(ОбъектБазы);
+			НаборЗаписей.Прочитать();
+			
+			ЗаписьРегистра = НаборЗаписей.Получить(ПараметрыЗаписи.НомерЗаписи - 1);
+			
+			Для каждого СтРеквизитРг Из МетаданныеРегистра.СтандартныеРеквизиты Цикл
+				
+				стр_ДанныеЗаписиИзм = дз_ДанныеЗаписи.Строки.Найти(СтРеквизитРг.Имя, ""ИмяРеквизита"");
+				
+				Если стр_ДанныеЗаписиИзм.Изменен = Ложь Тогда
+					Продолжить;
+				КонецЕсли;
+				
+				ЗаписьРегистра[СтРеквизитРг.Имя] = стр_ДанныеЗаписиИзм.ЗначениеРеквизита;
+				
+			КонецЦикла;
+			
+			Для каждого ИзмерениеРг Из МетаданныеРегистра.Измерения Цикл
+				
+				стр_ДанныеЗаписиИзм = дз_ДанныеЗаписи.Строки.Найти(ИзмерениеРг.Имя, ""ИмяРеквизита"");
+				
+				Если стр_ДанныеЗаписиИзм.Изменен = Ложь Тогда
+					Продолжить;
+				КонецЕсли;
+				
+				ЗаписьРегистра[ИзмерениеРг.Имя] = стр_ДанныеЗаписиИзм.ЗначениеРеквизита;
+				
+			КонецЦикла;
+			
+			Для каждого РеквизитРг Из МетаданныеРегистра.Реквизиты Цикл
+				
+				стр_ДанныеЗаписиИзм = дз_ДанныеЗаписи.Строки.Найти(РеквизитРг.Имя, ""ИмяРеквизита"");
+				
+				Если стр_ДанныеЗаписиИзм.Изменен = Ложь Тогда
+					Продолжить;
+				КонецЕсли;
+				
+				ЗаписьРегистра[РеквизитРг.Имя] = стр_ДанныеЗаписиИзм.ЗначениеРеквизита;
+				
+			КонецЦикла;
+			
+			Если НаборЗаписей.Модифицированность() Тогда
+				
+				НаборЗаписей.Записать(Истина);
+				Модифицированность = Ложь;
+				
+			КонецЕсли;
+			
+		ИначеЕсли ПараметрыЗаписи.ТипТаблицы = ""РегистрСведений"" Тогда
+			
+			Регистр = РегистрыСведений[ПараметрыЗаписи.ИмяТаблицы];
+			МетаданныеРегистра = Метаданные.РегистрыСведений[ПараметрыЗаписи.ИмяТаблицы];
+			
+			дз_ДанныеЗаписи = РеквизитФормыВЗначение(""ДанныеЗаписи"");
+			дз_ДанныеЗаписиДоИзменения = РеквизитФормыВЗначение(""ДанныеЗаписиДоИзменения"");
+			
+			МенеджерЗаписиДоИзменения = Регистр.СоздатьМенеджерЗаписи();
+			МенеджерЗаписиПослеИзменения = Регистр.СоздатьМенеджерЗаписи();
+			
+			ЭтоПериодическийРегистр = 
+				Не (МетаданныеРегистра.ПериодичностьРегистраСведений = Метаданные.СвойстваОбъектов.ПериодичностьРегистраСведений.Непериодический);
+			
+			Если МетаданныеРегистра.РежимЗаписи = Метаданные.СвойстваОбъектов.РежимЗаписиРегистра.Независимый Тогда
+				
+				Для каждого стр_ДанныеЗаписиДоИзменения Из дз_ДанныеЗаписиДоИзменения.Строки Цикл
+					
+					Если стр_ДанныеЗаписиДоИзменения.ИмяРеквизита = ""Период"" И ЭтоПериодическийРегистр Тогда
+						МенеджерЗаписиДоИзменения[""Период""] = стр_ДанныеЗаписиДоИзменения[""ЗначениеРеквизита""];
+						Продолжить;
+					КонецЕсли;
+					
+					ИзмерениеРС = МетаданныеРегистра.Измерения.Найти(стр_ДанныеЗаписиДоИзменения.ИмяРеквизита);
+					
+					Если (ИзмерениеРС = Неопределено) Тогда
+						Продолжить;
+					КонецЕсли;
+					
+					МенеджерЗаписиДоИзменения[ИзмерениеРС.Имя] = стр_ДанныеЗаписиДоИзменения[""ЗначениеРеквизита""];
+					
+				КонецЦикла;
+				
+				Для каждого стр_ДанныеЗаписи Из дз_ДанныеЗаписи.Строки Цикл
+					
+					Если стр_ДанныеЗаписи.ИмяРеквизита = ""Период"" И ЭтоПериодическийРегистр Тогда
+						МенеджерЗаписиПослеИзменения[""Период""] = стр_ДанныеЗаписи[""ЗначениеРеквизита""];
+						Продолжить;
+					КонецЕсли;
+					
+					ИзмерениеРС = МетаданныеРегистра.Измерения.Найти(стр_ДанныеЗаписи.ИмяРеквизита);
+					
+					Если Не (ИзмерениеРС = Неопределено) Тогда
+						МенеджерЗаписиПослеИзменения[ИзмерениеРС.Имя] = стр_ДанныеЗаписи[""ЗначениеРеквизита""];
+						Продолжить;
+					КонецЕсли;
+					
+					РесурсРС = МетаданныеРегистра.Ресурсы.Найти(стр_ДанныеЗаписи.ИмяРеквизита);
+					
+					Если Не (РесурсРС = Неопределено) Тогда
+						МенеджерЗаписиПослеИзменения[РесурсРС.Имя] = стр_ДанныеЗаписи[""ЗначениеРеквизита""];
+						Продолжить;
+					КонецЕсли;
+					
+					РеквизитРС = МетаданныеРегистра.Реквизиты.Найти(стр_ДанныеЗаписи.ИмяРеквизита);
+					
+					Если Не (РеквизитРС = Неопределено) Тогда
+						МенеджерЗаписиПослеИзменения[РеквизитРС.Имя] = стр_ДанныеЗаписи[""ЗначениеРеквизита""];
+						Продолжить;
+					КонецЕсли;
+					
+				КонецЦикла;
+				
+			КонецЕсли;
+			
+			МенеджерЗаписиДоИзменения.Прочитать();
+			
+			Если Не МенеджерЗаписиДоИзменения.Выбран() Тогда
+				ВызватьИсключение(""Не удалось инициализировать менеджер исходной записи регистра."");
+			КонецЕсли;
+			
+			ЗаписьИзменена = Ложь;
+			
+			НачатьТранзакцию();
+			
+			МенеджерЗаписиДоИзменения.Удалить();
+			МенеджерЗаписиПослеИзменения.Записать();
+			
+			Попытка
+				ЗафиксироватьТранзакцию();
+				ЗаписьИзменена = Истина;
+			Исключение
+				ОтменитьТранзакцию();
+				ПредставлениеОшибки = ПодробноеПредставлениеОшибки(ИнформацияОбОшибке());
+			КонецПопытки;
+			
+			Если ЗаписьИзменена Тогда
+				Модифицированность = Ложь;
+			КонецЕсли;
+			
+		КонецЕсли;
+		
+	КонецЕсли;
+	
+	СтрДанныеЗаписи = дз_ДанныеЗаписи.Строки.НайтиСтроки(Новый Структура(""Изменен"", Истина));
+	
+	Для каждого стр_ДанныеЗаписи Из СтрДанныеЗаписи Цикл
+		стр_ДанныеЗаписи.Изменен = Ложь;
+	КонецЦикла;
+	
+	ЗначениеВРеквизитФормы(дз_ДанныеЗаписи, ""ДанныеЗаписи"");
+	
+КонецПроцедуры
+
+&НаСервере
+Функция МетаданныеРегистраПоОписанию(ПараметрыТаблицы)
+	
+	Навигатор = ЭтаОбработка();
+	Возврат Навигатор.МетаданныеРегистраПоОписанию(ПараметрыТаблицы);
+	
+КонецФункции
+
+&НаСервере
+Функция ПолноеИмяФормыОбработки(ИмяТекущейФормы, ИмяФормыОбработки)
+	
+	Результат = ЭтаОбработка().ПолноеИмяФормыОбработки(ИмяТекущейФормы, ИмяФормыОбработки);
+	Возврат Результат;
+	
+КонецФункции
+
+&НаСервере
+Процедура УдалитьЗапись()
+	
+	Если (ПараметрыЗаписи.ТипТаблицы = ""ТабличнаяЧасть"") Тогда
+		
+		ДанныеОбъекта = ОбъектБазы.ПолучитьОбъект();
+		СтрокаТаблЧасти = ДанныеОбъекта[ПараметрыЗаписи.ИмяТаблицы][ПараметрыЗаписи.НомерЗаписи - 1];
+		
+		Попытка
+			ДанныеОбъекта[ПараметрыЗаписи.ИмяТаблицы].Удалить(СтрокаТаблЧасти);
+		Исключение
+			//
+		КонецПопытки;
+		
+		Если ДанныеОбъекта.Модифицированность() Тогда
+			ДанныеОбъекта.Записать();
+			Модифицированность = Ложь;
+		КонецЕсли;
+		
+	Иначе
+		
+		Если ПараметрыЗаписи.ТипТаблицы = ""РегистрНакопления"" Или ПараметрыЗаписи.ТипТаблицы = ""РегистрСведений"" Тогда
+			
+			Если ПараметрыЗаписи.ТипТаблицы = ""РегистрНакопления"" Тогда
+				Регистр = РегистрыНакопления[ПараметрыЗаписи.ИмяТаблицы];
+				МетаданныеРегистра = Метаданные.РегистрыНакопления[ПараметрыЗаписи.ИмяТаблицы];
+			ИначеЕсли ПараметрыЗаписи.ТипТаблицы = ""РегистрСведений"" Тогда
+				Регистр = РегистрыСведений[ПараметрыЗаписи.ИмяТаблицы];
+				МетаданныеРегистра = Метаданные.РегистрыСведений[ПараметрыЗаписи.ИмяТаблицы];
+			КонецЕсли;
+			
+			НаборЗаписей = Регистр.СоздатьНаборЗаписей();
+			НаборЗаписей.Отбор.Регистратор.Установить(ОбъектБазы);
+			НаборЗаписей.Прочитать();
+			
+			ЗаписьРегистра = НаборЗаписей.Получить(ПараметрыЗаписи.НомерЗаписи - 1);
+			
+			НаборЗаписей.Удалить(ЗаписьРегистра);
+			
+			Если НаборЗаписей.Модифицированность() Тогда
+				НаборЗаписей.Записать(Истина);
+				Модифицированность = Ложь;
+			КонецЕсли;
+			
+		КонецЕсли;
+		
+	КонецЕсли;
+	
+КонецПроцедуры
+
+&НаСервере
+Функция ЭтаОбработка()
+	
+	Результат = РеквизитФормыВЗначение(""Объект"");
+	Возврат Результат;
+	
+КонецФункции
+
+#КонецОбласти
+",
+{4,8,
+{9,
+{1},0,"Объект",
+{1,0},
+{"Pattern",
+{"#",3d49117c-dc8b-42c6-839b-dd65dfef6747}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,0},
+{0,0},1,0,0,0,
+{0,0},
+{0,0}
+},
+{9,
+{2},0,"ДанныеЗаписи",
+{1,1,
+{"ru","Данные записи"}
+},
+{"Pattern",
+{"#",e603c0f2-92fb-4d47-8f38-a44a381cf235}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,0},
+{0,0},0,0,0,9,
+{5,3,0,"ИмяРеквизита",
+{1,1,
+{"ru","Имя реквизита"}
+},
+{"Pattern",
+{"S"}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,0},0},
+{5,4,0,"ЗначениеРеквизита",
+{1,1,
+{"ru","Значение реквизита"}
+},
+{"Pattern"},
+{0,
+{0,
+{"B",1},0}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,0},0},
+{5,5,0,"ТипРеквизита",
+{1,1,
+{"ru","Тип реквизита"}
+},
+{"Pattern",
+{"S"}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,0},0},
+{5,1,0,"СинонимРеквизита",
+{1,1,
+{"ru","Синоним реквизита"}
+},
+{"Pattern",
+{"S"}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,0},0},
+{5,2,0,"КомментарийРеквизита",
+{1,1,
+{"ru","Комментарий реквизита"}
+},
+{"Pattern",
+{"S"}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,0},0},
+{5,6,0,"ПредставлениеТипа",
+{1,1,
+{"ru","Представление типа"}
+},
+{"Pattern",
+{"S"}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,0},0},
+{5,7,0,"ИндексКартинки",
+{1,1,
+{"ru","Индекс картинки"}
+},
+{"Pattern",
+{"N",10,0,0}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,0},0},
+{5,8,0,"Изменен",
+{1,1,
+{"ru","Изменен"}
+},
+{"Pattern",
+{"B"}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,0},0},
+{5,9,0,"ТолькоПросмотр",
+{1,1,
+{"ru","Только просмотр"}
+},
+{"Pattern",
+{"B"}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,0},0},
+{0,0},
+{0,0}
+},
+{9,
+{3},0,"ОбъектБазы",
+{1,1,
+{"ru","Объект базы"}
+},
+{"Pattern"},
+{0,
+{0,
+{"B",1},0}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,0},
+{0,0},0,0,0,0,
+{0,0},
+{0,0}
+},
+{9,
+{4},0,"ПараметрыЗаписи",
+{1,1,
+{"ru","Параметры записи"}
+},
+{"Pattern"},
+{0,
+{0,
+{"B",1},0}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,0},
+{0,0},0,0,0,0,
+{0,0},
+{0,0}
+},
+{9,
+{5},0,"ДанныеЗаписиДоИзменения",
+{1,1,
+{"ru","Данные записи (до изменения)"}
+},
+{"Pattern",
+{"#",e603c0f2-92fb-4d47-8f38-a44a381cf235}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,0},
+{0,0},0,0,0,9,
+{5,3,0,"ИмяРеквизита",
+{1,1,
+{"ru","Имя реквизита"}
+},
+{"Pattern",
+{"S"}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,0},0},
+{5,4,0,"ЗначениеРеквизита",
+{1,1,
+{"ru","Значение реквизита"}
+},
+{"Pattern"},
+{0,
+{0,
+{"B",1},0}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,0},0},
+{5,5,0,"ТипРеквизита",
+{1,1,
+{"ru","Тип реквизита"}
+},
+{"Pattern",
+{"S"}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,0},0},
+{5,1,0,"СинонимРеквизита",
+{1,1,
+{"ru","Синоним реквизита"}
+},
+{"Pattern",
+{"S"}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,0},0},
+{5,2,0,"КомментарийРеквизита",
+{1,1,
+{"ru","Комментарий реквизита"}
+},
+{"Pattern",
+{"S"}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,0},0},
+{5,6,0,"ПредставлениеТипа",
+{1,1,
+{"ru","Представление типа"}
+},
+{"Pattern",
+{"S"}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,0},0},
+{5,7,0,"ИндексКартинки",
+{1,1,
+{"ru","Индекс картинки"}
+},
+{"Pattern",
+{"N",10,0,0}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,0},0},
+{5,8,0,"Изменен",
+{1,1,
+{"ru","Изменен"}
+},
+{"Pattern",
+{"B"}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,0},0},
+{5,9,0,"ТолькоПросмотр",
+{1,1,
+{"ru","Только просмотр"}
+},
+{"Pattern",
+{"B"}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,0},0},
+{0,0},
+{0,0}
+},
+{9,
+{6},0,"ПредставлениеЗаписи",
+{1,1,
+{"ru","Представление записи"}
+},
+{"Pattern",
+{"S"}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,0},
+{0,0},0,0,0,0,
+{0,0},
+{0,0}
+},
+{9,
+{7},0,"ДеревоУзловОбмена",
+{1,1,
+{"ru","Дерево узлов обмена"}
+},
+{"Pattern",
+{"#",e603c0f2-92fb-4d47-8f38-a44a381cf235}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,0},
+{0,0},0,0,0,6,
+{5,1,0,"Наименование",
+{1,1,
+{"ru","Наименование"}
+},
+{"Pattern",
+{"S"}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,0},0},
+{5,2,0,"ИндексКартинки",
+{1,1,
+{"ru","Индекс картинки"}
+},
+{"Pattern",
+{"N"}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,0},0},
+{5,3,0,"Пометка",
+{1,0},
+{"Pattern",
+{"N",10,0,0}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,0},0},
+{5,4,0,"Ссылка",
+{1,1,
+{"ru","Ссылка"}
+},
+{"Pattern",
+{"#",0a52f9de-73ea-4507-81e8-66217bead73a}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,0},0},
+{5,5,0,"Код",
+{1,1,
+{"ru","Код"}
+},
+{"Pattern",
+{"S"}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,0},0},
+{5,6,0,"Уровень",
+{1,1,
+{"ru","Уровень"}
+},
+{"Pattern",
+{"N"}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,0},0},
+{0,0},
+{0,0}
+},
+{9,
+{8},0,"ДанныеОбъектаXMLТекст",
+{1,1,
+{"ru","Данные объекта XMLТекст"}
+},
+{"Pattern",
+{"#",ebf766b1-f32c-11d3-9851-008048da1252}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,0},
+{0,0},0,0,0,0,
+{0,0},
+{0,0}
+},0,2,"ДанныеЗаписи.Изменен","ДанныеЗаписи.Изменен",
+{2,
+{2},
+{8}
+},
+{1,
+{2}
+},"ДанныеЗаписи.ТолькоПросмотр","ДанныеЗаписи.ТолькоПросмотр",
+{2,
+{2},
+{9}
+},
+{1,
+{2}
+},
+{#base64:77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxTZXR0
+aW5ncyB4bWxucz0iaHR0cDovL3Y4LjFjLnJ1LzguMS9kYXRhLWNvbXBvc2l0aW9u
+LXN5c3RlbS9zZXR0aW5ncyIgeG1sbnM6ZGNzY29yPSJodHRwOi8vdjguMWMucnUv
+OC4xL2RhdGEtY29tcG9zaXRpb24tc3lzdGVtL2NvcmUiIHhtbG5zOnN0eWxlPSJo
+dHRwOi8vdjguMWMucnUvOC4xL2RhdGEvdWkvc3R5bGUiIHhtbG5zOnN5cz0iaHR0
+cDovL3Y4LjFjLnJ1LzguMS9kYXRhL3VpL2ZvbnRzL3N5c3RlbSIgeG1sbnM6djg9
+Imh0dHA6Ly92OC4xYy5ydS84LjEvZGF0YS9jb3JlIiB4bWxuczp2OHVpPSJodHRw
+Oi8vdjguMWMucnUvOC4xL2RhdGEvdWkiIHhtbG5zOndlYj0iaHR0cDovL3Y4LjFj
+LnJ1LzguMS9kYXRhL3VpL2NvbG9ycy93ZWIiIHhtbG5zOndpbj0iaHR0cDovL3Y4
+LjFjLnJ1LzguMS9kYXRhL3VpL2NvbG9ycy93aW5kb3dzIiB4bWxuczp4cz0iaHR0
+cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDov
+L3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiPg0KCTxjb25kaXRp
+b25hbEFwcGVhcmFuY2U+DQoJCTxpdGVtPg0KCQkJPHNlbGVjdGlvbj4NCgkJCQk8
+aXRlbT4NCgkJCQkJPGZpZWxkPtCU0LDQvdC90YvQtdCX0LDQv9C40YHQuNCX0L3Q
+sNGH0LXQvdC40LXQoNC10LrQstC40LfQuNGC0LA8L2ZpZWxkPg0KCQkJCTwvaXRl
+bT4NCgkJCTwvc2VsZWN0aW9uPg0KCQkJPGZpbHRlcj4NCgkJCQk8aXRlbSB4c2k6
+dHlwZT0iRmlsdGVySXRlbUNvbXBhcmlzb24iPg0KCQkJCQk8bGVmdCB4c2k6dHlw
+ZT0iZGNzY29yOkZpZWxkIj7QlNCw0L3QvdGL0LXQl9Cw0L/QuNGB0Lgu0JjQt9C8
+0LXQvdC10L08L2xlZnQ+DQoJCQkJCTxjb21wYXJpc29uVHlwZT5FcXVhbDwvY29t
+cGFyaXNvblR5cGU+DQoJCQkJCTxyaWdodCB4c2k6dHlwZT0ieHM6Ym9vbGVhbiI+
+dHJ1ZTwvcmlnaHQ+DQoJCQkJPC9pdGVtPg0KCQkJPC9maWx0ZXI+DQoJCQk8YXBw
+ZWFyYW5jZT4NCgkJCQk8ZGNzY29yOml0ZW0geHNpOnR5cGU9IlNldHRpbmdzUGFy
+YW1ldGVyVmFsdWUiPg0KCQkJCQk8ZGNzY29yOnBhcmFtZXRlcj7QptCy0LXRgtCk
+0L7QvdCwPC9kY3Njb3I6cGFyYW1ldGVyPg0KCQkJCQk8ZGNzY29yOnZhbHVlIHhz
+aTp0eXBlPSJ2OHVpOkNvbG9yIj53ZWI6UGVhY2hQdWZmPC9kY3Njb3I6dmFsdWU+
+DQoJCQkJPC9kY3Njb3I6aXRlbT4NCgkJCTwvYXBwZWFyYW5jZT4NCgkJPC9pdGVt
+Pg0KCQk8aXRlbT4NCgkJCTxzZWxlY3Rpb24+DQoJCQkJPGl0ZW0+DQoJCQkJCTxm
+aWVsZD7QlNCw0L3QvdGL0LXQl9Cw0L/QuNGB0Lg8L2ZpZWxkPg0KCQkJCTwvaXRl
+bT4NCgkJCTwvc2VsZWN0aW9uPg0KCQkJPGZpbHRlcj4NCgkJCQk8aXRlbSB4c2k6
+dHlwZT0iRmlsdGVySXRlbUNvbXBhcmlzb24iPg0KCQkJCQk8bGVmdCB4c2k6dHlw
+ZT0iZGNzY29yOkZpZWxkIj7QlNCw0L3QvdGL0LXQl9Cw0L/QuNGB0Lgu0KLQvtC7
+0YzQutC+0J/RgNC+0YHQvNC+0YLRgDwvbGVmdD4NCgkJCQkJPGNvbXBhcmlzb25U
+eXBlPkVxdWFsPC9jb21wYXJpc29uVHlwZT4NCgkJCQkJPHJpZ2h0IHhzaTp0eXBl
+PSJ4czpib29sZWFuIj50cnVlPC9yaWdodD4NCgkJCQk8L2l0ZW0+DQoJCQk8L2Zp
+bHRlcj4NCgkJCTxhcHBlYXJhbmNlPg0KCQkJCTxkY3Njb3I6aXRlbSB4c2k6dHlw
+ZT0iU2V0dGluZ3NQYXJhbWV0ZXJWYWx1ZSI+DQoJCQkJCTxkY3Njb3I6cGFyYW1l
+dGVyPtCi0L7Qu9GM0LrQvtCf0YDQvtGB0LzQvtGC0YA8L2Rjc2NvcjpwYXJhbWV0
+ZXI+DQoJCQkJCTxkY3Njb3I6dmFsdWUgeHNpOnR5cGU9InhzOmJvb2xlYW4iPnRy
+dWU8L2Rjc2Nvcjp2YWx1ZT4NCgkJCQk8L2Rjc2NvcjppdGVtPg0KCQkJPC9hcHBl
+YXJhbmNlPg0KCQk8L2l0ZW0+DQoJCTxpdGVtPg0KCQkJPHNlbGVjdGlvbj4NCgkJ
+CQk8aXRlbT4NCgkJCQkJPGZpZWxkPtCU0LDQvdC90YvQtdCX0LDQv9C40YHQuDwv
+ZmllbGQ+DQoJCQkJPC9pdGVtPg0KCQkJPC9zZWxlY3Rpb24+DQoJCQk8ZmlsdGVy
+Pg0KCQkJCTxpdGVtIHhzaTp0eXBlPSJGaWx0ZXJJdGVtQ29tcGFyaXNvbiI+DQoJ
+CQkJCTxsZWZ0IHhzaTp0eXBlPSJkY3Njb3I6RmllbGQiPtCU0LDQvdC90YvQtdCX
+0LDQv9C40YHQuC7QotC+0LvRjNC60L7Qn9GA0L7RgdC80L7RgtGAPC9sZWZ0Pg0K
+CQkJCQk8Y29tcGFyaXNvblR5cGU+RXF1YWw8L2NvbXBhcmlzb25UeXBlPg0KCQkJ
+CQk8cmlnaHQgeHNpOnR5cGU9InhzOmJvb2xlYW4iPnRydWU8L3JpZ2h0Pg0KCQkJ
+CTwvaXRlbT4NCgkJCTwvZmlsdGVyPg0KCQkJPGFwcGVhcmFuY2U+DQoJCQkJPGRj
+c2NvcjppdGVtIHhzaTp0eXBlPSJTZXR0aW5nc1BhcmFtZXRlclZhbHVlIj4NCgkJ
+CQkJPGRjc2NvcjpwYXJhbWV0ZXI+0KbQstC10YLQpNC+0L3QsDwvZGNzY29yOnBh
+cmFtZXRlcj4NCgkJCQkJPGRjc2Nvcjp2YWx1ZSB4c2k6dHlwZT0idjh1aTpDb2xv
+ciI+d2ViOkdhaW5zYm9ybzwvZGNzY29yOnZhbHVlPg0KCQkJCTwvZGNzY29yOml0
+ZW0+DQoJCQkJPGRjc2NvcjppdGVtIHhzaTp0eXBlPSJTZXR0aW5nc1BhcmFtZXRl
+clZhbHVlIj4NCgkJCQkJPGRjc2NvcjpwYXJhbWV0ZXI+0KLQvtC70YzQutC+0J/R
+gNC+0YHQvNC+0YLRgDwvZGNzY29yOnBhcmFtZXRlcj4NCgkJCQkJPGRjc2Nvcjp2
+YWx1ZSB4c2k6dHlwZT0ieHM6Ym9vbGVhbiI+dHJ1ZTwvZGNzY29yOnZhbHVlPg0K
+CQkJCTwvZGNzY29yOml0ZW0+DQoJCQk8L2FwcGVhcmFuY2U+DQoJCTwvaXRlbT4N
+Cgk8L2NvbmRpdGlvbmFsQXBwZWFyYW5jZT4NCgk8b3V0cHV0UGFyYW1ldGVycy8+
+DQo8L1NldHRpbmdzPg==}
+},
+{0,1,
+{0,"ОбъектБазы",
+{"Pattern"},0}
+},
+{0,2,
+{9,
+{1,409b9a53-7f7e-4178-86c1-33176c7c7a7a},"КомандаЗаписатьИзменения",
+{1,1,
+{"ru","Записать"}
+},
+{1,1,
+{"ru","Записать"}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,0,0},
+{4,0,
+{0},"",-1,-1,1,0,""},"КомандаЗаписатьИзменения",3,0,0,
+{0,0},1,0,1,0,0,1},
+{9,
+{2,409b9a53-7f7e-4178-86c1-33176c7c7a7a},"КомандаУдалитьЗапись",
+{1,1,
+{"ru","Команда удалить запись"}
+},
+{1,1,
+{"ru","Удалить"}
+},
+{0,
+{0,
+{"B",1},0}
+},
+{0,0,0},
+{4,0,
+{0},"",-1,-1,1,0,""},"КомандаУдалитьЗапись",3,0,0,
+{0,0},1,0,1,0,0,1}
+},
+{0,0},
+{0,0},0,0}
