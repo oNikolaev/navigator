@@ -283,30 +283,6 @@
 							</Button>
 						</ChildItems>
 					</Popup>
-					<Popup name="ПодменюИнструменты" id="721">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Инструменты</v8:content>
-							</v8:item>
-						</Title>
-						<ToolTip>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Подменю инструменты</v8:content>
-							</v8:item>
-						</ToolTip>
-						<ShapeRepresentation>WhenActive</ShapeRepresentation>
-						<ExtendedTooltip name="ПодменюИнструментыРасширеннаяПодсказка" id="722"/>
-						<ChildItems>
-							<Button name="СтруктураХраненияБазыДанных" id="723">
-								<Type>CommandBarButton</Type>
-								<CommandName>Form.Command.КомандаСтруктураХраненияБазыДанных</CommandName>
-								<ShapeRepresentation>WhenActive</ShapeRepresentation>
-								<ExtendedTooltip name="СтруктураХраненияБазыДанныхРасширеннаяПодсказка" id="724"/>
-							</Button>
-						</ChildItems>
-					</Popup>
 					<Popup name="ПодменюОкна" id="150">
 						<Title>
 							<v8:item>
@@ -384,14 +360,6 @@
 						<ShapeRepresentation>WhenActive</ShapeRepresentation>
 						<ExtendedTooltip name="ПодменюСправкаРасширеннаяПодсказка" id="137"/>
 						<ChildItems>
-							<Button name="Справка" id="142">
-								<Type>CommandBarButton</Type>
-								<Representation>Picture</Representation>
-								<CommandName>Form.StandardCommand.Help</CommandName>
-								<ShapeRepresentation>WhenActive</ShapeRepresentation>
-								<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
-								<ExtendedTooltip name="СправкаРасширеннаяПодсказка" id="143"/>
-							</Button>
 							<ButtonGroup name="ГруппаСправкаПроверить" id="380">
 								<Title>
 									<v8:item>
@@ -407,16 +375,6 @@
 								</ToolTip>
 								<ExtendedTooltip name="ГруппаСправкаПроверитьРасширеннаяПодсказка" id="381"/>
 								<ChildItems>
-									<Button name="КомандаПроверитьНаличиеОбновлений" id="378">
-										<Type>CommandBarButton</Type>
-										<CommandName>Form.Command.КомандаПроверитьНаличиеОбновлений</CommandName>
-										<Picture>
-											<xr:Abs>Picture.png</xr:Abs>
-											<xr:LoadTransparent>false</xr:LoadTransparent>
-										</Picture>
-										<ShapeRepresentation>WhenActive</ShapeRepresentation>
-										<ExtendedTooltip name="КомандаПроверитьНаличиеОбновленийРасширеннаяПодсказка" id="379"/>
-									</Button>
 									<Button name="КомандаОткрытьФормуОПрограмме" id="138">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.КомандаОткрытьФормуОПрограмме</CommandName>
@@ -3933,22 +3891,6 @@
 			<Action>КомандаСкрытьПоказатьКолонкуСиноним</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="КомандаПроверитьНаличиеОбновлений" id="23">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Проверить наличие обновлений</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Проверить наличие обновлений</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>КомандаПроверитьНаличиеОбновлений</Action>
-			<CurrentRowUse>DontUse</CurrentRowUse>
-		</Command>
 		<Command name="КомандаИсторияНавигацииВыбор" id="24">
 			<Title>
 				<v8:item>
@@ -4146,21 +4088,6 @@
 			</Picture>
 			<Action>КомандаПоискПоСтруктуреМетаданных</Action>
 			<Representation>Picture</Representation>
-		</Command>
-		<Command name="КомандаСтруктураХраненияБазыДанных" id="36">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Структура хранения</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Команда структура хранения базы данных</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>СтруктураХраненияБазыДанных</Action>
 		</Command>
 		<Command name="КомандаОтобразитьСтруктуруХраненияОбъектаМетаданных" id="37">
 			<Title>
