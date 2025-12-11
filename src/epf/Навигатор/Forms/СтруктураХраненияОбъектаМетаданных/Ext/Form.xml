@@ -1,0 +1,827 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Структура хранения объекта метаданных</v8:content>
+		</v8:item>
+	</Title>
+	<AutoTitle>false</AutoTitle>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+		<ChildItems>
+			<Button name="ФормаЗакрыть" id="45">
+				<Type>CommandBarButton</Type>
+				<Representation>Picture</Representation>
+				<CommandName>Form.StandardCommand.Close</CommandName>
+				<Picture>
+					<xr:Abs>Picture.png</xr:Abs>
+					<xr:LoadTransparent>false</xr:LoadTransparent>
+				</Picture>
+				<ShapeRepresentation>WhenActive</ShapeRepresentation>
+				<ExtendedTooltip name="ФормаЗакрытьРасширеннаяПодсказка" id="46"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаИнформацияОСтруктуре" id="192">
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа информация о структуре</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаИнформацияОСтруктуреРасширеннаяПодсказка" id="193"/>
+			<ChildItems>
+				<RadioButtonField name="ИнформацияОСтруктуре" id="189">
+					<DataPath>ИнформацияОСтруктуре</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<RadioButtonType>Tumbler</RadioButtonType>
+					<ChoiceList>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>В терминах 1С</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xs:string">ВТерминах1С</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>В терминах СУБД</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xs:string">ВТерминахСУБД</Value>
+							</xr:Value>
+						</xr:Item>
+					</ChoiceList>
+					<ContextMenu name="ИнформацияОСтруктуреКонтекстноеМеню" id="190"/>
+					<ExtendedTooltip name="ИнформацияОСтруктуреРасширеннаяПодсказка" id="191"/>
+					<Events>
+						<Event name="OnChange">ИнформацияОСтруктуреПриИзменении</Event>
+					</Events>
+				</RadioButtonField>
+				<LabelDecoration name="НадписьРазмерДанных" id="197">
+					<TextColor>#333399</TextColor>
+					<ContextMenu name="НадписьРазмерДанныхКонтекстноеМеню" id="198"/>
+					<ExtendedTooltip name="НадписьРазмерДанныхРасширеннаяПодсказка" id="199"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<Pages name="СтраницыФормы" id="1">
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы формы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="СтраницыФормыРасширеннаяПодсказка" id="2"/>
+			<ChildItems>
+				<Page name="СтраницаТаблицыХранения" id="86">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Таблицы</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница таблицы хранения</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаТаблицыХраненияРасширеннаяПодсказка" id="87"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаТаблицыХранения" id="135">
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа таблицы хранения</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаТаблицыХраненияРасширеннаяПодсказка" id="136"/>
+							<ChildItems>
+								<Table name="ТаблицыХранения" id="88">
+									<Representation>List</Representation>
+									<ChangeRowSet>false</ChangeRowSet>
+									<HeightInTableRows>3</HeightInTableRows>
+									<AutoInsertNewRow>true</AutoInsertNewRow>
+									<EnableStartDrag>true</EnableStartDrag>
+									<EnableDrag>true</EnableDrag>
+									<DataPath>ТаблицыХранения</DataPath>
+									<RowFilter xsi:nil="true"/>
+									<ContextMenu name="ТаблицыХраненияКонтекстноеМеню" id="89"/>
+									<AutoCommandBar name="ТаблицыХраненияКоманднаяПанель" id="90">
+										<Autofill>false</Autofill>
+										<ChildItems>
+											<ButtonGroup name="ТаблицыХраненияГруппа1" id="185">
+												<Representation>Compact</Representation>
+												<ExtendedTooltip name="ТаблицыХраненияГруппа1РасширеннаяПодсказка" id="186"/>
+												<ChildItems>
+													<Button name="ТаблицыХраненияСортироватьСписокПоВозрастанию" id="181">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Item.ТаблицыХранения.StandardCommand.SortListAsc</CommandName>
+														<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+														<ExtendedTooltip name="ТаблицыХраненияСортироватьСписокПоВозрастаниюРасширеннаяПодсказка" id="182"/>
+													</Button>
+													<Button name="ТаблицыХраненияСортироватьСписокПоУбыванию" id="183">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Item.ТаблицыХранения.StandardCommand.SortListDesc</CommandName>
+														<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+														<ExtendedTooltip name="ТаблицыХраненияСортироватьСписокПоУбываниюРасширеннаяПодсказка" id="184"/>
+													</Button>
+												</ChildItems>
+											</ButtonGroup>
+										</ChildItems>
+									</AutoCommandBar>
+									<ExtendedTooltip name="ТаблицыХраненияРасширеннаяПодсказка" id="91"/>
+									<SearchStringAddition name="ТаблицыХраненияСтрокаПоиска" id="92">
+										<AdditionSource>
+											<Item>ТаблицыХранения</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="ТаблицыХраненияСтрокаПоискаКонтекстноеМеню" id="93"/>
+										<ExtendedTooltip name="ТаблицыХраненияСтрокаПоискаРасширеннаяПодсказка" id="94"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="ТаблицыХраненияСостояниеПросмотра" id="95">
+										<AdditionSource>
+											<Item>ТаблицыХранения</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="ТаблицыХраненияСостояниеПросмотраКонтекстноеМеню" id="96"/>
+										<ExtendedTooltip name="ТаблицыХраненияСостояниеПросмотраРасширеннаяПодсказка" id="97"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="ТаблицыХраненияУправлениеПоиском" id="98">
+										<AdditionSource>
+											<Item>ТаблицыХранения</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="ТаблицыХраненияУправлениеПоискомКонтекстноеМеню" id="99"/>
+										<ExtendedTooltip name="ТаблицыХраненияУправлениеПоискомРасширеннаяПодсказка" id="100"/>
+									</SearchControlAddition>
+									<Events>
+										<Event name="OnActivateRow">ТаблицыХраненияПриАктивизацииСтроки</Event>
+									</Events>
+									<ChildItems>
+										<InputField name="ТаблицыХраненияИмяТаблицы" id="104">
+											<DataPath>ТаблицыХранения.ИмяТаблицы</DataPath>
+											<Visible>false</Visible>
+											<ReadOnly>true</ReadOnly>
+											<EditMode>EnterOnInput</EditMode>
+											<TextColor>#333399</TextColor>
+											<ContextMenu name="ТаблицыХраненияИмяТаблицыКонтекстноеМеню" id="105"/>
+											<ExtendedTooltip name="ТаблицыХраненияИмяТаблицыРасширеннаяПодсказка" id="106"/>
+										</InputField>
+										<InputField name="ТаблицыХраненияИмяТаблицыХранения" id="101">
+											<DataPath>ТаблицыХранения.ИмяТаблицыХранения</DataPath>
+											<ReadOnly>true</ReadOnly>
+											<EditMode>EnterOnInput</EditMode>
+											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+											<ContextMenu name="ТаблицыХраненияИмяТаблицыХраненияКонтекстноеМеню" id="102"/>
+											<ExtendedTooltip name="ТаблицыХраненияИмяТаблицыХраненияРасширеннаяПодсказка" id="103"/>
+										</InputField>
+										<InputField name="ТаблицыХраненияМетаданные" id="107">
+											<DataPath>ТаблицыХранения.Метаданные</DataPath>
+											<Visible>false</Visible>
+											<ReadOnly>true</ReadOnly>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="ТаблицыХраненияМетаданныеКонтекстноеМеню" id="108"/>
+											<ExtendedTooltip name="ТаблицыХраненияМетаданныеРасширеннаяПодсказка" id="109"/>
+										</InputField>
+										<InputField name="ТаблицыХраненияНазначение" id="110">
+											<DataPath>ТаблицыХранения.Назначение</DataPath>
+											<ReadOnly>true</ReadOnly>
+											<EditMode>EnterOnInput</EditMode>
+											<Font ref="style:NormalTextFont" bold="false" italic="true" underline="false" strikeout="false" kind="StyleItem"/>
+											<ContextMenu name="ТаблицыХраненияНазначениеКонтекстноеМеню" id="111"/>
+											<ExtendedTooltip name="ТаблицыХраненияНазначениеРасширеннаяПодсказка" id="112"/>
+										</InputField>
+									</ChildItems>
+								</Table>
+								<Pages name="СтраницыДанныеТаблицыХранения" id="137">
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страницы данные таблицы хранения</v8:content>
+										</v8:item>
+									</ToolTip>
+									<PagesRepresentation>TabsOnTop</PagesRepresentation>
+									<ExtendedTooltip name="СтраницыДанныеТаблицыХраненияРасширеннаяПодсказка" id="138"/>
+									<ChildItems>
+										<Page name="СтраницаПоля" id="139">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Поля</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Страница поля</v8:content>
+												</v8:item>
+											</ToolTip>
+											<ExtendedTooltip name="СтраницаПоляРасширеннаяПодсказка" id="140"/>
+											<ChildItems>
+												<Table name="ТаблицыХраненияПоля" id="113">
+													<Representation>List</Representation>
+													<ChangeRowSet>false</ChangeRowSet>
+													<HeightInTableRows>3</HeightInTableRows>
+													<AutoInsertNewRow>true</AutoInsertNewRow>
+													<EnableStartDrag>true</EnableStartDrag>
+													<EnableDrag>true</EnableDrag>
+													<DataPath>Items.ТаблицыХранения.CurrentData.Поля</DataPath>
+													<RowFilter xsi:nil="true"/>
+													<ContextMenu name="ТаблицыХраненияПоляКонтекстноеМеню" id="114"/>
+													<AutoCommandBar name="ТаблицыХраненияПоляКоманднаяПанель" id="115">
+														<Autofill>false</Autofill>
+													</AutoCommandBar>
+													<ExtendedTooltip name="ТаблицыХраненияПоляРасширеннаяПодсказка" id="116"/>
+													<SearchStringAddition name="ТаблицыХраненияПоляСтрокаПоиска" id="117">
+														<AdditionSource>
+															<Item>ТаблицыХраненияПоля</Item>
+															<Type>SearchStringRepresentation</Type>
+														</AdditionSource>
+														<ContextMenu name="ТаблицыХраненияПоляСтрокаПоискаКонтекстноеМеню" id="118"/>
+														<ExtendedTooltip name="ТаблицыХраненияПоляСтрокаПоискаРасширеннаяПодсказка" id="119"/>
+													</SearchStringAddition>
+													<ViewStatusAddition name="ТаблицыХраненияПоляСостояниеПросмотра" id="120">
+														<AdditionSource>
+															<Item>ТаблицыХраненияПоля</Item>
+															<Type>ViewStatusRepresentation</Type>
+														</AdditionSource>
+														<ContextMenu name="ТаблицыХраненияПоляСостояниеПросмотраКонтекстноеМеню" id="121"/>
+														<ExtendedTooltip name="ТаблицыХраненияПоляСостояниеПросмотраРасширеннаяПодсказка" id="122"/>
+													</ViewStatusAddition>
+													<SearchControlAddition name="ТаблицыХраненияПоляУправлениеПоиском" id="123">
+														<AdditionSource>
+															<Item>ТаблицыХраненияПоля</Item>
+															<Type>SearchControl</Type>
+														</AdditionSource>
+														<ContextMenu name="ТаблицыХраненияПоляУправлениеПоискомКонтекстноеМеню" id="124"/>
+														<ExtendedTooltip name="ТаблицыХраненияПоляУправлениеПоискомРасширеннаяПодсказка" id="125"/>
+													</SearchControlAddition>
+													<ChildItems>
+														<InputField name="ТаблицыХраненияПоляИмяПоля" id="126">
+															<DataPath>Items.ТаблицыХранения.CurrentData.Поля.ИмяПоля</DataPath>
+															<ReadOnly>true</ReadOnly>
+															<EditMode>EnterOnInput</EditMode>
+															<TextColor>#333399</TextColor>
+															<ContextMenu name="ТаблицыХраненияПоляИмяПоляКонтекстноеМеню" id="127"/>
+															<ExtendedTooltip name="ТаблицыХраненияПоляИмяПоляРасширеннаяПодсказка" id="128"/>
+														</InputField>
+														<InputField name="ТаблицыХраненияПоляИмяПоляХранения" id="129">
+															<DataPath>Items.ТаблицыХранения.CurrentData.Поля.ИмяПоляХранения</DataPath>
+															<ReadOnly>true</ReadOnly>
+															<EditMode>EnterOnInput</EditMode>
+															<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+															<ContextMenu name="ТаблицыХраненияПоляИмяПоляХраненияКонтекстноеМеню" id="130"/>
+															<ExtendedTooltip name="ТаблицыХраненияПоляИмяПоляХраненияРасширеннаяПодсказка" id="131"/>
+														</InputField>
+														<InputField name="ТаблицыХраненияПоляМетаданные" id="132">
+															<DataPath>Items.ТаблицыХранения.CurrentData.Поля.Метаданные</DataPath>
+															<Visible>false</Visible>
+															<ReadOnly>true</ReadOnly>
+															<EditMode>EnterOnInput</EditMode>
+															<ContextMenu name="ТаблицыХраненияПоляМетаданныеКонтекстноеМеню" id="133"/>
+															<ExtendedTooltip name="ТаблицыХраненияПоляМетаданныеРасширеннаяПодсказка" id="134"/>
+														</InputField>
+													</ChildItems>
+												</Table>
+											</ChildItems>
+										</Page>
+										<Page name="СтраницаИндексы" id="141">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Индексы</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Страница индексы</v8:content>
+												</v8:item>
+											</ToolTip>
+											<ExtendedTooltip name="СтраницаИндексыРасширеннаяПодсказка" id="142"/>
+											<ChildItems>
+												<UsualGroup name="ГруппаИндексы" id="187">
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа индексы</v8:content>
+														</v8:item>
+													</ToolTip>
+													<Group>AlwaysHorizontal</Group>
+													<Behavior>Usual</Behavior>
+													<ExtendedTooltip name="ГруппаИндексыРасширеннаяПодсказка" id="188"/>
+													<ChildItems>
+														<Table name="ТаблицыХраненияИндексы" id="143">
+															<Representation>List</Representation>
+															<ChangeRowSet>false</ChangeRowSet>
+															<HeightInTableRows>3</HeightInTableRows>
+															<AutoInsertNewRow>true</AutoInsertNewRow>
+															<EnableStartDrag>true</EnableStartDrag>
+															<EnableDrag>true</EnableDrag>
+															<DataPath>Items.ТаблицыХранения.CurrentData.Индексы</DataPath>
+															<RowFilter xsi:nil="true"/>
+															<ContextMenu name="ТаблицыХраненияИндексыКонтекстноеМеню" id="144"/>
+															<AutoCommandBar name="ТаблицыХраненияИндексыКоманднаяПанель" id="145">
+																<Autofill>false</Autofill>
+															</AutoCommandBar>
+															<ExtendedTooltip name="ТаблицыХраненияИндексыРасширеннаяПодсказка" id="146"/>
+															<SearchStringAddition name="ТаблицыХраненияИндексыСтрокаПоиска" id="147">
+																<AdditionSource>
+																	<Item>ТаблицыХраненияИндексы</Item>
+																	<Type>SearchStringRepresentation</Type>
+																</AdditionSource>
+																<ContextMenu name="ТаблицыХраненияИндексыСтрокаПоискаКонтекстноеМеню" id="148"/>
+																<ExtendedTooltip name="ТаблицыХраненияИндексыСтрокаПоискаРасширеннаяПодсказка" id="149"/>
+															</SearchStringAddition>
+															<ViewStatusAddition name="ТаблицыХраненияИндексыСостояниеПросмотра" id="150">
+																<AdditionSource>
+																	<Item>ТаблицыХраненияИндексы</Item>
+																	<Type>ViewStatusRepresentation</Type>
+																</AdditionSource>
+																<ContextMenu name="ТаблицыХраненияИндексыСостояниеПросмотраКонтекстноеМеню" id="151"/>
+																<ExtendedTooltip name="ТаблицыХраненияИндексыСостояниеПросмотраРасширеннаяПодсказка" id="152"/>
+															</ViewStatusAddition>
+															<SearchControlAddition name="ТаблицыХраненияИндексыУправлениеПоиском" id="153">
+																<AdditionSource>
+																	<Item>ТаблицыХраненияИндексы</Item>
+																	<Type>SearchControl</Type>
+																</AdditionSource>
+																<ContextMenu name="ТаблицыХраненияИндексыУправлениеПоискомКонтекстноеМеню" id="154"/>
+																<ExtendedTooltip name="ТаблицыХраненияИндексыУправлениеПоискомРасширеннаяПодсказка" id="155"/>
+															</SearchControlAddition>
+															<ChildItems>
+																<InputField name="ТаблицыХраненияИндексыИмяИндексаХранения" id="156">
+																	<DataPath>Items.ТаблицыХранения.CurrentData.Индексы.ИмяИндексаХранения</DataPath>
+																	<ReadOnly>true</ReadOnly>
+																	<EditMode>EnterOnInput</EditMode>
+																	<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+																	<ContextMenu name="ТаблицыХраненияИндексыИмяИндексаХраненияКонтекстноеМеню" id="157"/>
+																	<ExtendedTooltip name="ТаблицыХраненияИндексыИмяИндексаХраненияРасширеннаяПодсказка" id="158"/>
+																</InputField>
+															</ChildItems>
+														</Table>
+														<Table name="ТаблицыХраненияИндексыПоля" id="159">
+															<Representation>List</Representation>
+															<ChangeRowSet>false</ChangeRowSet>
+															<HeightInTableRows>3</HeightInTableRows>
+															<AutoInsertNewRow>true</AutoInsertNewRow>
+															<EnableStartDrag>true</EnableStartDrag>
+															<EnableDrag>true</EnableDrag>
+															<DataPath>Items.ТаблицыХраненияИндексы.CurrentData.Поля</DataPath>
+															<RowFilter xsi:nil="true"/>
+															<ContextMenu name="ТаблицыХраненияИндексыПоляКонтекстноеМеню" id="160"/>
+															<AutoCommandBar name="ТаблицыХраненияИндексыПоляКоманднаяПанель" id="161">
+																<Autofill>false</Autofill>
+															</AutoCommandBar>
+															<ExtendedTooltip name="ТаблицыХраненияИндексыПоляРасширеннаяПодсказка" id="162"/>
+															<SearchStringAddition name="ТаблицыХраненияИндексыПоляСтрокаПоиска" id="163">
+																<AdditionSource>
+																	<Item>ТаблицыХраненияИндексыПоля</Item>
+																	<Type>SearchStringRepresentation</Type>
+																</AdditionSource>
+																<ContextMenu name="ТаблицыХраненияИндексыПоляСтрокаПоискаКонтекстноеМеню" id="164"/>
+																<ExtendedTooltip name="ТаблицыХраненияИндексыПоляСтрокаПоискаРасширеннаяПодсказка" id="165"/>
+															</SearchStringAddition>
+															<ViewStatusAddition name="ТаблицыХраненияИндексыПоляСостояниеПросмотра" id="166">
+																<AdditionSource>
+																	<Item>ТаблицыХраненияИндексыПоля</Item>
+																	<Type>ViewStatusRepresentation</Type>
+																</AdditionSource>
+																<ContextMenu name="ТаблицыХраненияИндексыПоляСостояниеПросмотраКонтекстноеМеню" id="167"/>
+																<ExtendedTooltip name="ТаблицыХраненияИндексыПоляСостояниеПросмотраРасширеннаяПодсказка" id="168"/>
+															</ViewStatusAddition>
+															<SearchControlAddition name="ТаблицыХраненияИндексыПоляУправлениеПоиском" id="169">
+																<AdditionSource>
+																	<Item>ТаблицыХраненияИндексыПоля</Item>
+																	<Type>SearchControl</Type>
+																</AdditionSource>
+																<ContextMenu name="ТаблицыХраненияИндексыПоляУправлениеПоискомКонтекстноеМеню" id="170"/>
+																<ExtendedTooltip name="ТаблицыХраненияИндексыПоляУправлениеПоискомРасширеннаяПодсказка" id="171"/>
+															</SearchControlAddition>
+															<ChildItems>
+																<InputField name="ТаблицыХраненияИндексыПоляИмяПоля" id="172">
+																	<DataPath>Items.ТаблицыХраненияИндексы.CurrentData.Поля.ИмяПоля</DataPath>
+																	<ReadOnly>true</ReadOnly>
+																	<EditMode>EnterOnInput</EditMode>
+																	<TextColor>#333399</TextColor>
+																	<ContextMenu name="ТаблицыХраненияИндексыПоляИмяПоляКонтекстноеМеню" id="173"/>
+																	<ExtendedTooltip name="ТаблицыХраненияИндексыПоляИмяПоляРасширеннаяПодсказка" id="174"/>
+																</InputField>
+																<InputField name="ТаблицыХраненияИндексыПоляИмяПоляХранения" id="175">
+																	<DataPath>Items.ТаблицыХраненияИндексы.CurrentData.Поля.ИмяПоляХранения</DataPath>
+																	<ReadOnly>true</ReadOnly>
+																	<EditMode>EnterOnInput</EditMode>
+																	<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+																	<ContextMenu name="ТаблицыХраненияИндексыПоляИмяПоляХраненияКонтекстноеМеню" id="176"/>
+																	<ExtendedTooltip name="ТаблицыХраненияИндексыПоляИмяПоляХраненияРасширеннаяПодсказка" id="177"/>
+																</InputField>
+																<InputField name="ТаблицыХраненияИндексыПоляМетаданные" id="178">
+																	<DataPath>Items.ТаблицыХраненияИндексы.CurrentData.Поля.Метаданные</DataPath>
+																	<Visible>false</Visible>
+																	<ReadOnly>true</ReadOnly>
+																	<EditMode>EnterOnInput</EditMode>
+																	<ContextMenu name="ТаблицыХраненияИндексыПоляМетаданныеКонтекстноеМеню" id="179"/>
+																	<ExtendedTooltip name="ТаблицыХраненияИндексыПоляМетаданныеРасширеннаяПодсказка" id="180"/>
+																</InputField>
+															</ChildItems>
+														</Table>
+													</ChildItems>
+												</UsualGroup>
+											</ChildItems>
+										</Page>
+									</ChildItems>
+								</Pages>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:ExternalDataProcessorObject.Навигатор</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ТаблицыХранения" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Таблицы хранения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="ИмяТаблицыХранения" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя таблицы хранения</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ИмяТаблицы" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя таблицы</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Метаданные" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Метаданные</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Назначение" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Назначение</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Поля" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Поля</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>v8:ValueTable</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Индексы" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Индексы</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>v8:ValueTable</v8:Type>
+					</Type>
+				</Column>
+				<AdditionalColumns table="ТаблицыХранения.Поля">
+					<Column name="ИмяПоля" id="2">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Имя поля</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:string</v8:Type>
+							<v8:StringQualifiers>
+								<v8:Length>0</v8:Length>
+								<v8:AllowedLength>Variable</v8:AllowedLength>
+							</v8:StringQualifiers>
+						</Type>
+					</Column>
+					<Column name="ИмяПоляХранения" id="1">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Имя поля хранения</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:string</v8:Type>
+							<v8:StringQualifiers>
+								<v8:Length>0</v8:Length>
+								<v8:AllowedLength>Variable</v8:AllowedLength>
+							</v8:StringQualifiers>
+						</Type>
+					</Column>
+					<Column name="Метаданные" id="3">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Метаданные</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:string</v8:Type>
+							<v8:StringQualifiers>
+								<v8:Length>0</v8:Length>
+								<v8:AllowedLength>Variable</v8:AllowedLength>
+							</v8:StringQualifiers>
+						</Type>
+					</Column>
+				</AdditionalColumns>
+				<AdditionalColumns table="ТаблицыХранения.Индексы">
+					<Column name="ИмяИндексаХранения" id="1">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Имя индекса хранения</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:string</v8:Type>
+							<v8:StringQualifiers>
+								<v8:Length>0</v8:Length>
+								<v8:AllowedLength>Variable</v8:AllowedLength>
+							</v8:StringQualifiers>
+						</Type>
+					</Column>
+					<Column name="Поля" id="2">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Поля</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>v8:ValueTable</v8:Type>
+						</Type>
+					</Column>
+				</AdditionalColumns>
+				<AdditionalColumns table="ТаблицыХранения.Индексы.Поля">
+					<Column name="ИмяПоля" id="1">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Имя поля</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:string</v8:Type>
+							<v8:StringQualifiers>
+								<v8:Length>0</v8:Length>
+								<v8:AllowedLength>Variable</v8:AllowedLength>
+							</v8:StringQualifiers>
+						</Type>
+					</Column>
+					<Column name="ИмяПоляХранения" id="2">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Имя поля хранения</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:string</v8:Type>
+							<v8:StringQualifiers>
+								<v8:Length>0</v8:Length>
+								<v8:AllowedLength>Variable</v8:AllowedLength>
+							</v8:StringQualifiers>
+						</Type>
+					</Column>
+					<Column name="Метаданные" id="3">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Метаданные</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:string</v8:Type>
+							<v8:StringQualifiers>
+								<v8:Length>0</v8:Length>
+								<v8:AllowedLength>Variable</v8:AllowedLength>
+							</v8:StringQualifiers>
+						</Type>
+					</Column>
+				</AdditionalColumns>
+			</Columns>
+		</Attribute>
+		<Attribute name="АдресДополнительныеДанные" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес дополнительные данные</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПолноеИмяОбъекта" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Полное имя объекта</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ИмяЭлементаКоллекции" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Имя элемента коллекции</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ИмяКоллекции" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Имя коллекции</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ИмяОбъектаБазы" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Имя объекта базы</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ИнформацияОСтруктуре" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Информация о структуре</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="РазмерДанных" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Размер данных</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Parameters>
+		<Parameter name="ИмяКоллекции">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Parameter>
+		<Parameter name="ИмяЭлементаКоллекции">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Parameter>
+		<Parameter name="ИмяОбъектаБазы">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Parameter>
+	</Parameters>
+</Form>
