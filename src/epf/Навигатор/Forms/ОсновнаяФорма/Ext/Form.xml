@@ -1282,6 +1282,11 @@
 																						<CommandName>Form.Item.Проекты.StandardCommand.Add</CommandName>
 																						<ExtendedTooltip name="ПроектыДобавитьРасширеннаяПодсказка" id="446"/>
 																					</Button>
+																					<Button name="КомандаПроектыДобавитьГруппу" id="738">
+																						<Type>CommandBarButton</Type>
+																						<CommandName>Form.Command.КомандаПроектыДобавитьГруппу</CommandName>
+																						<ExtendedTooltip name="КомандаПроектыДобавитьГруппуРасширеннаяПодсказка" id="739"/>
+																					</Button>
 																					<Button name="ПроектыСкопировать" id="451">
 																						<Type>CommandBarButton</Type>
 																						<Representation>Picture</Representation>
@@ -4166,6 +4171,25 @@
 					<v8:content>Команда сохранить все проекты</v8:content>
 				</v8:item>
 			</ToolTip>
+		</Command>
+		<Command name="КомандаПроектыДобавитьГруппу" id="39">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить группу</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить группу</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.CreateFolder</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>КомандаПроектыДобавитьГруппу</Action>
 		</Command>
 	</Commands>
 </Form>
