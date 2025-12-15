@@ -4166,6 +4166,7 @@
 					<v8:content>Сохранить проект</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Action>КомандаСохранитьПроект</Action>
 		</Command>
 		<Command name="КомандаСохранитьПроектКак" id="36">
 			<Title>
