@@ -1366,6 +1366,22 @@
 																					</Button>
 																				</ChildItems>
 																			</ButtonGroup>
+																			<ButtonGroup name="ПроектыГруппа4" id="743">
+																				<ExtendedTooltip name="ПроектыГруппа4РасширеннаяПодсказка" id="744"/>
+																				<ChildItems>
+																					<Button name="КомандаВставитьДанныеИзБуфераОбмена" id="745">
+																						<Type>CommandBarButton</Type>
+																						<CommandName>Form.Command.КомандаВставитьДанныеИзБуфераОбмена</CommandName>
+																						<Picture>
+																							<xr:Abs>Picture.png</xr:Abs>
+																							<xr:LoadTransparent>true</xr:LoadTransparent>
+																							<xr:TransparentPixel x="15" y="15"/>
+																						</Picture>
+																						<ShapeRepresentation>WhenActive</ShapeRepresentation>
+																						<ExtendedTooltip name="КомандаВставитьДанныеИзБуфераОбменаРасширеннаяПодсказка" id="746"/>
+																					</Button>
+																				</ChildItems>
+																			</ButtonGroup>
 																		</ChildItems>
 																	</AutoCommandBar>
 																	<ExtendedTooltip name="ПроектыРасширеннаяПодсказка" id="396"/>
@@ -2853,6 +2869,15 @@
 					<ContextMenu name="КартинкаСтруктураХраненияКонтекстноеМеню" id="728"/>
 					<ExtendedTooltip name="КартинкаСтруктураХраненияРасширеннаяПодсказка" id="729"/>
 				</PictureDecoration>
+				<PictureDecoration name="КартинкаКопироватьВБуферОбмена" id="740">
+					<Picture>
+						<xr:Abs>Picture.png</xr:Abs>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+						<xr:TransparentPixel x="15" y="15"/>
+					</Picture>
+					<ContextMenu name="КартинкаКопироватьВБуферОбменаКонтекстноеМеню" id="741"/>
+					<ExtendedTooltip name="КартинкаКопироватьВБуферОбменаРасширеннаяПодсказка" id="742"/>
+				</PictureDecoration>
 				<PictureDecoration name="КартинкаЗакрыть" id="285">
 					<Title formatted="false">
 						<v8:item>
@@ -4214,6 +4239,22 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>КомандаПроектыДобавитьГруппу</Action>
+		</Command>
+		<Command name="КомандаВставитьДанныеИзБуфераОбмена" id="40">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вставить данные из буфера обмена</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вставить данные из буфера обмена</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КомандаВставитьДанныеИзБуфераОбмена</Action>
+			<Representation>Picture</Representation>
 		</Command>
 	</Commands>
 </Form>
