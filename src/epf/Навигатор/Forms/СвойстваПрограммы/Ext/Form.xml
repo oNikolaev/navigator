@@ -3,7 +3,7 @@
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
 	<Customizable>false</Customizable>
-	<CommandBarLocation>Top</CommandBarLocation>
+	<CommandBarLocation>None</CommandBarLocation>
 	<VerticalScroll>useIfNecessary</VerticalScroll>
 	<CommandSet>
 		<ExcludedCommand>Abort</ExcludedCommand>
@@ -19,7 +19,6 @@
 		<ExcludedCommand>Yes</ExcludedCommand>
 	</CommandSet>
 	<ShowTitle>false</ShowTitle>
-	<ShowCloseButton>false</ShowCloseButton>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
@@ -89,6 +88,22 @@
 					<ExtendedTooltip name="НадписьСтраницаРазработкиНаGitHubРасширеннаяПодсказка" id="14"/>
 					<Events>
 						<Event name="Click">НадписьСтраницаРазработкиНаGitHubНажатие</Event>
+					</Events>
+				</LabelDecoration>
+				<LabelDecoration name="НадписьSponsr" id="22">
+					<Width>15</Width>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>sponsr.ru</v8:content>
+						</v8:item>
+					</Title>
+					<Hyperlink>true</Hyperlink>
+					<HorizontalAlign>Center</HorizontalAlign>
+					<ContextMenu name="НадписьSponsrКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="НадписьSponsrРасширеннаяПодсказка" id="24"/>
+					<Events>
+						<Event name="Click">НадписьSponsrНажатие</Event>
 					</Events>
 				</LabelDecoration>
 			</ChildItems>

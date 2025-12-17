@@ -1274,7 +1274,39 @@
 																		<xr:Abs>RowsPicture.png</xr:Abs>
 																		<xr:LoadTransparent>false</xr:LoadTransparent>
 																	</RowsPicture>
-																	<ContextMenu name="ПроектыКонтекстноеМеню" id="394"/>
+																	<ContextMenu name="ПроектыКонтекстноеМеню" id="394">
+																		<Autofill>false</Autofill>
+																		<ChildItems>
+																			<Popup name="ПроектыКонтекстноеМенюПодменюДобавить" id="749">
+																				<Title>
+																					<v8:item>
+																						<v8:lang>ru</v8:lang>
+																						<v8:content>Добавить</v8:content>
+																					</v8:item>
+																				</Title>
+																				<ToolTip>
+																					<v8:item>
+																						<v8:lang>ru</v8:lang>
+																						<v8:content>Добавить</v8:content>
+																					</v8:item>
+																				</ToolTip>
+																				<ExtendedTooltip name="ПроектыКонтекстноеМенюПодменюДобавитьРасширеннаяПодсказка" id="750"/>
+																				<ChildItems>
+																					<Button name="КомандаДобавитьФайлВПроект" id="747">
+																						<Type>CommandBarButton</Type>
+																						<CommandName>Form.Command.КомандаДобавитьФайлВПроект</CommandName>
+																						<Title>
+																							<v8:item>
+																								<v8:lang>ru</v8:lang>
+																								<v8:content>Файл</v8:content>
+																							</v8:item>
+																						</Title>
+																						<ExtendedTooltip name="КомандаДобавитьФайлВПроектРасширеннаяПодсказка" id="748"/>
+																					</Button>
+																				</ChildItems>
+																			</Popup>
+																		</ChildItems>
+																	</ContextMenu>
 																	<AutoCommandBar name="ПроектыКоманднаяПанель" id="395">
 																		<ChildItems>
 																			<ButtonGroup name="ПроектыГруппа2" id="457">
@@ -4255,6 +4287,21 @@
 			</ToolTip>
 			<Action>КомандаВставитьДанныеИзБуфераОбмена</Action>
 			<Representation>Picture</Representation>
+		</Command>
+		<Command name="КомандаДобавитьФайлВПроект" id="41">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить файл в проект</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить файл</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КомандаДобавитьФайлВПроект</Action>
 		</Command>
 	</Commands>
 </Form>
