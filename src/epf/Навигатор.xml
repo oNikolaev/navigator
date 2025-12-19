@@ -1081,8 +1081,6 @@
 			<Form>ПанельНастройкиКолонокСписка</Form>
 			<Form>РаботаСПроектами</Form>
 			<Template>ДвиженияДокумента</Template>
-			<Template>НастройкиМакетHTML</Template>
-			<Template>ПараметрыПолученияОбновлений</Template>
 			<Template>ПреобразованиеXSLT</Template>
 		</ChildObjects>
 	</ExternalDataProcessor>

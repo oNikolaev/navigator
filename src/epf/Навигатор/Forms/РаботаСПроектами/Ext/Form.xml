@@ -1,6 +1,258 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<AutoCommandBar name="" id="-1"/>
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Проекты</v8:content>
+		</v8:item>
+	</Title>
+	<AutoTitle>false</AutoTitle>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+		<ChildItems>
+			<Popup name="ПодменюФайл" id="58">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Файл</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Подменю файл</v8:content>
+					</v8:item>
+				</ToolTip>
+				<ShapeRepresentation>WhenActive</ShapeRepresentation>
+				<ExtendedTooltip name="ПодменюФайлРасширеннаяПодсказка" id="59"/>
+				<ChildItems>
+					<Button name="ПроектыКомандаСохранитьПроект" id="39">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.КомандаСохранитьПроект</CommandName>
+						<Picture>
+							<xr:Abs>Picture.png</xr:Abs>
+							<xr:LoadTransparent>false</xr:LoadTransparent>
+						</Picture>
+						<ShapeRepresentation>WhenActive</ShapeRepresentation>
+						<ExtendedTooltip name="ПроектыКомандаСохранитьПроектРасширеннаяПодсказка" id="40"/>
+					</Button>
+					<Button name="ПроектыКомандаСохранитьПроектКак" id="41">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.КомандаСохранитьПроектКак</CommandName>
+						<Picture>
+							<xr:Abs>Picture.png</xr:Abs>
+							<xr:LoadTransparent>false</xr:LoadTransparent>
+						</Picture>
+						<ShapeRepresentation>WhenActive</ShapeRepresentation>
+						<ExtendedTooltip name="ПроектыКомандаСохранитьПроектКакРасширеннаяПодсказка" id="42"/>
+					</Button>
+					<Button name="ПроектыКомандаСохранитьВсеПроекты" id="43">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.КомандаСохранитьВсеПроекты</CommandName>
+						<Picture>
+							<xr:Abs>Picture.png</xr:Abs>
+							<xr:LoadTransparent>false</xr:LoadTransparent>
+						</Picture>
+						<ShapeRepresentation>WhenActive</ShapeRepresentation>
+						<ExtendedTooltip name="ПроектыКомандаСохранитьВсеПроектыРасширеннаяПодсказка" id="44"/>
+					</Button>
+					<ButtonGroup name="ГруппаЗакрыть" id="60">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа закрыть</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа закрыть</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="ГруппаЗакрытьРасширеннаяПодсказка" id="61"/>
+						<ChildItems>
+							<Button name="ФормаЗакрыть" id="62">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.StandardCommand.Close</CommandName>
+								<Picture>
+									<xr:Abs>Picture.png</xr:Abs>
+									<xr:LoadTransparent>false</xr:LoadTransparent>
+								</Picture>
+								<ExtendedTooltip name="ФормаЗакрытьРасширеннаяПодсказка" id="63"/>
+							</Button>
+						</ChildItems>
+					</ButtonGroup>
+				</ChildItems>
+			</Popup>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
+	</Events>
+	<ChildItems>
+		<Table name="Проекты" id="1">
+			<Representation>Tree</Representation>
+			<Header>false</Header>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<FileDragMode>AsFile</FileDragMode>
+			<DataPath>Проекты</DataPath>
+			<RowPictureDataPath>Проекты.НомерКартинки</RowPictureDataPath>
+			<RowsPicture>
+				<xr:Abs>RowsPicture.png</xr:Abs>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
+			</RowsPicture>
+			<ContextMenu name="ПроектыКонтекстноеМеню" id="2">
+				<Autofill>false</Autofill>
+				<ChildItems>
+					<Popup name="ПроектыКонтекстноеМенюПодменюДобавить" id="17">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Добавить</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Добавить</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="ПроектыКонтекстноеМенюПодменюДобавитьРасширеннаяПодсказка" id="18"/>
+						<ChildItems>
+							<Button name="КомандаДобавитьФайлВПроект" id="19">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.КомандаДобавитьФайлВПроект</CommandName>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Файл</v8:content>
+									</v8:item>
+								</Title>
+								<ExtendedTooltip name="КомандаДобавитьФайлВПроектРасширеннаяПодсказка" id="20"/>
+							</Button>
+						</ChildItems>
+					</Popup>
+				</ChildItems>
+			</ContextMenu>
+			<AutoCommandBar name="ПроектыКоманднаяПанель" id="3">
+				<Autofill>false</Autofill>
+				<ChildItems>
+					<ButtonGroup name="ПроектыГруппа2" id="21">
+						<Representation>Compact</Representation>
+						<ExtendedTooltip name="ПроектыГруппа2РасширеннаяПодсказка" id="22"/>
+						<ChildItems>
+							<Button name="ПроектыДобавить" id="23">
+								<Type>CommandBarButton</Type>
+								<Representation>Picture</Representation>
+								<CommandName>Form.Item.Проекты.StandardCommand.Add</CommandName>
+								<ShapeRepresentation>WhenActive</ShapeRepresentation>
+								<ExtendedTooltip name="ПроектыДобавитьРасширеннаяПодсказка" id="24"/>
+							</Button>
+							<Button name="КомандаПроектыДобавитьГруппу" id="25">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.КомандаПроектыДобавитьГруппу</CommandName>
+								<ShapeRepresentation>WhenActive</ShapeRepresentation>
+								<ExtendedTooltip name="КомандаПроектыДобавитьГруппуРасширеннаяПодсказка" id="26"/>
+							</Button>
+							<Button name="ПроектыСкопировать" id="27">
+								<Type>CommandBarButton</Type>
+								<Representation>Picture</Representation>
+								<CommandName>Form.Item.Проекты.StandardCommand.Copy</CommandName>
+								<ShapeRepresentation>WhenActive</ShapeRepresentation>
+								<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+								<ExtendedTooltip name="ПроектыСкопироватьРасширеннаяПодсказка" id="28"/>
+							</Button>
+							<Button name="ПроектыУдалить" id="29">
+								<Type>CommandBarButton</Type>
+								<Representation>Picture</Representation>
+								<CommandName>Form.Item.Проекты.StandardCommand.Delete</CommandName>
+								<ShapeRepresentation>WhenActive</ShapeRepresentation>
+								<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+								<ExtendedTooltip name="ПроектыУдалитьРасширеннаяПодсказка" id="30"/>
+							</Button>
+						</ChildItems>
+					</ButtonGroup>
+					<ButtonGroup name="ПроектыГруппа1" id="31">
+						<Representation>Compact</Representation>
+						<ExtendedTooltip name="ПроектыГруппа1РасширеннаяПодсказка" id="32"/>
+						<ChildItems>
+							<Button name="ПроектыПереместитьВверх" id="33">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Item.Проекты.StandardCommand.MoveUp</CommandName>
+								<ShapeRepresentation>WhenActive</ShapeRepresentation>
+								<ExtendedTooltip name="ПроектыПереместитьВверхРасширеннаяПодсказка" id="34"/>
+							</Button>
+							<Button name="ПроектыПереместитьВниз" id="35">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Item.Проекты.StandardCommand.MoveDown</CommandName>
+								<ShapeRepresentation>WhenActive</ShapeRepresentation>
+								<ExtendedTooltip name="ПроектыПереместитьВнизРасширеннаяПодсказка" id="36"/>
+							</Button>
+						</ChildItems>
+					</ButtonGroup>
+					<ButtonGroup name="ПроектыГруппа4" id="45">
+						<ExtendedTooltip name="ПроектыГруппа4РасширеннаяПодсказка" id="46"/>
+						<ChildItems>
+							<Button name="КомандаВставитьДанныеИзБуфераОбмена" id="47">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.КомандаВставитьДанныеИзБуфераОбмена</CommandName>
+								<Picture>
+									<xr:Abs>Picture.png</xr:Abs>
+									<xr:LoadTransparent>true</xr:LoadTransparent>
+									<xr:TransparentPixel x="15" y="15"/>
+								</Picture>
+								<ShapeRepresentation>WhenActive</ShapeRepresentation>
+								<ExtendedTooltip name="КомандаВставитьДанныеИзБуфераОбменаРасширеннаяПодсказка" id="48"/>
+							</Button>
+						</ChildItems>
+					</ButtonGroup>
+				</ChildItems>
+			</AutoCommandBar>
+			<ExtendedTooltip name="ПроектыРасширеннаяПодсказка" id="4"/>
+			<SearchStringAddition name="ПроектыСтрокаПоиска" id="5">
+				<AdditionSource>
+					<Item>Проекты</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ПроектыСтрокаПоискаКонтекстноеМеню" id="6"/>
+				<ExtendedTooltip name="ПроектыСтрокаПоискаРасширеннаяПодсказка" id="7"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ПроектыСостояниеПросмотра" id="8">
+				<AdditionSource>
+					<Item>Проекты</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ПроектыСостояниеПросмотраКонтекстноеМеню" id="9"/>
+				<ExtendedTooltip name="ПроектыСостояниеПросмотраРасширеннаяПодсказка" id="10"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ПроектыУправлениеПоиском" id="11">
+				<AdditionSource>
+					<Item>Проекты</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ПроектыУправлениеПоискомКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="ПроектыУправлениеПоискомРасширеннаяПодсказка" id="13"/>
+			</SearchControlAddition>
+			<Events>
+				<Event name="DragCheck">ПроектыПроверкаПеретаскивания</Event>
+				<Event name="BeforeAddRow">ПроектыПередНачаломДобавления</Event>
+				<Event name="DragStart">ПроектыНачалоПеретаскивания</Event>
+				<Event name="Drag">ПроектыПеретаскивание</Event>
+				<Event name="DragEnd">ПроектыОкончаниеПеретаскивания</Event>
+			</Events>
+			<ChildItems>
+				<InputField name="ПроектыПредставление" id="55">
+					<DataPath>Проекты.Представление</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ПроектыПредставлениеКонтекстноеМеню" id="56"/>
+					<ExtendedTooltip name="ПроектыПредставлениеРасширеннаяПодсказка" id="57"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
 			<Type>
@@ -8,5 +260,192 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 		</Attribute>
+		<Attribute name="Проекты" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проекты</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTree</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Тип" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тип</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="НомерКартинки" id="8">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер картинки</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="Представление" id="9">
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Имя" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Значение" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Значение</v8:content>
+						</v8:item>
+					</Title>
+					<Type/>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ИмяЭлементаИсточникаПриПеретаскивании" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Имя элемента источника при перетаскивании</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="КомандаСохранитьВсеПроекты" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить все проекты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команда сохранить все проекты</v8:content>
+				</v8:item>
+			</ToolTip>
+		</Command>
+		<Command name="КомандаСохранитьПроект" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить проект</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить проект</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КомандаСохранитьПроект</Action>
+		</Command>
+		<Command name="КомандаСохранитьПроектКак" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить проект как</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить проект как</v8:content>
+				</v8:item>
+			</ToolTip>
+		</Command>
+		<Command name="КомандаВставитьДанныеИзБуфераОбмена" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вставить данные из буфера обмена</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вставить данные из буфера обмена</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КомандаВставитьДанныеИзБуфераОбмена</Action>
+			<Representation>Picture</Representation>
+		</Command>
+		<Command name="КомандаПроектыДобавитьГруппу" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить группу</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить группу</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.CreateFolder</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>КомандаПроектыДобавитьГруппу</Action>
+		</Command>
+		<Command name="КомандаДобавитьФайлВПроект" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить файл в проект</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить файл</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КомандаДобавитьФайлВПроект</Action>
+		</Command>
+	</Commands>
 </Form>
