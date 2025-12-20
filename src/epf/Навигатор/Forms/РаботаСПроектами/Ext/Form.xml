@@ -93,7 +93,6 @@
 		<Table name="Проекты" id="1">
 			<Representation>Tree</Representation>
 			<Header>false</Header>
-			<AutoInsertNewRow>true</AutoInsertNewRow>
 			<EnableStartDrag>true</EnableStartDrag>
 			<EnableDrag>true</EnableDrag>
 			<FileDragMode>AsFile</FileDragMode>
@@ -134,6 +133,11 @@
 							</Button>
 						</ChildItems>
 					</Popup>
+					<Button name="КомандаОткрытьЭлемент" id="64">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.КомандаОткрытьЭлемент</CommandName>
+						<ExtendedTooltip name="КомандаОткрытьЭлементРасширеннаяПодсказка" id="65"/>
+					</Button>
 				</ChildItems>
 			</ContextMenu>
 			<AutoCommandBar name="ПроектыКоманднаяПанель" id="3">
@@ -335,6 +339,21 @@
 					</Title>
 					<Type/>
 				</Column>
+				<Column name="Свойства" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Свойства</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
 			</Columns>
 		</Attribute>
 		<Attribute name="ИмяЭлементаИсточникаПриПеретаскивании" id="3">
@@ -446,6 +465,25 @@
 				</v8:item>
 			</ToolTip>
 			<Action>КомандаДобавитьФайлВПроект</Action>
+		</Command>
+		<Command name="КомандаОткрытьЭлемент" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.ShowData</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>КомандаОткрытьЭлемент</Action>
 		</Command>
 	</Commands>
 </Form>
