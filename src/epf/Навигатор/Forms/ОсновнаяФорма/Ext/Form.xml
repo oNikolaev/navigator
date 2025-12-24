@@ -1088,11 +1088,21 @@
 																	<ContextMenu name="СтруктураМетаданныхКонфигурацииКонтекстноеМеню" id="48">
 																		<Autofill>false</Autofill>
 																		<ChildItems>
-																			<Button name="КомандаОткрытьОтчетОбработку" id="706">
+																			<Button name="КомандаОткрытьОтчетОбработкуФорму" id="706">
 																				<Type>CommandBarButton</Type>
 																				<Visible>false</Visible>
-																				<CommandName>Form.Command.КомандаОткрытьОтчетОбработку</CommandName>
-																				<ExtendedTooltip name="КомандаОткрытьОтчетОбработкуРасширеннаяПодсказка" id="707"/>
+																				<CommandName>Form.Command.КомандаОткрытьОтчетОбработкуФорму</CommandName>
+																				<ExtendedTooltip name="КомандаОткрытьОтчетОбработкуФормуРасширеннаяПодсказка" id="707"/>
+																			</Button>
+																			<Button name="КомандаОткрытьФормуСПараметромАвтоТест" id="747">
+																				<Type>CommandBarButton</Type>
+																				<CommandName>Form.Command.КомандаОткрытьФормуСПараметромАвтоТест</CommandName>
+																				<ExtendedTooltip name="КомандаОткрытьФормуСПараметромАвтоТестРасширеннаяПодсказка" id="748"/>
+																			</Button>
+																			<Button name="КомандаОткрытьМакет" id="749">
+																				<Type>CommandBarButton</Type>
+																				<CommandName>Form.Command.КомандаОткрытьМакет</CommandName>
+																				<ExtendedTooltip name="КомандаОткрытьМакетРасширеннаяПодсказка" id="750"/>
 																			</Button>
 																			<Button name="КомандаОткрытьСписокЭлементовОбъектаМетаданных" id="92">
 																				<Type>CommandBarButton</Type>
@@ -3838,7 +3848,7 @@
 			<Action>КомандаКонсольКодаОткрыть</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="КомандаОткрытьОтчетОбработку" id="34">
+		<Command name="КомандаОткрытьОтчетОбработкуФорму" id="34">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3851,7 +3861,7 @@
 					<v8:content>Открыть отчет, обработку</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action>КомандаОткрытьОтчетОбработку</Action>
+			<Action>КомандаОткрытьОтчетОбработкуФорму</Action>
 		</Command>
 		<Command name="КомандаПоискПоСтруктуреМетаданных" id="35">
 			<Title>
@@ -3902,6 +3912,36 @@
 				</v8:item>
 			</ToolTip>
 			<Action>КомандаОткрытьРаботуСПроектами</Action>
+		</Command>
+		<Command name="КомандаОткрытьФормуСПараметромАвтоТест" id="27">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть ("АвтоТест")</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команда открыть форму с параметром авто тест</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КомандаОткрытьФормуСПараметромАвтоТест</Action>
+		</Command>
+		<Command name="КомандаОткрытьМакет" id="36">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команда открыть макет</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КомандаОткрытьМакет</Action>
 		</Command>
 	</Commands>
 </Form>
