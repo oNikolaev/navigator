@@ -1082,6 +1082,8 @@
 			<Form>РаботаСПроектами</Form>
 			<Template>ДвиженияДокумента</Template>
 			<Template>ПреобразованиеXSLT</Template>
+			<Template>СтатистикаПоИерархическомуСправочнику</Template>
+			<Template>СтатистикаПоСправочнику</Template>
 		</ChildObjects>
 	</ExternalDataProcessor>
 </MetaDataObject>

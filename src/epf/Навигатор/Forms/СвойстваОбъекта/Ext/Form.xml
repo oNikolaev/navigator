@@ -53,6 +53,9 @@
 			</ToolTip>
 			<PagesRepresentation>TabsOnLeftHorizontal</PagesRepresentation>
 			<ExtendedTooltip name="СтраницыФормыРасширеннаяПодсказка" id="38"/>
+			<Events>
+				<Event name="OnCurrentPageChange">СтраницыФормыПриСменеСтраницы</Event>
+			</Events>
 			<ChildItems>
 				<Page name="СтраницаСвойства" id="39">
 					<Title>
@@ -998,6 +1001,34 @@
 					</ToolTip>
 					<ExtendedTooltip name="СтраницаМестаИспользованияРасширеннаяПодсказка" id="231"/>
 				</Page>
+				<Page name="СтраницаСтатистика" id="256">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Статистика</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница статистика</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаСтатистикаРасширеннаяПодсказка" id="257"/>
+					<ChildItems>
+						<Button name="КомандаОтобразитьСтатистику" id="258">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.КомандаОтобразитьСтатистику</CommandName>
+							<ExtendedTooltip name="КомандаОтобразитьСтатистикуРасширеннаяПодсказка" id="259"/>
+						</Button>
+						<SpreadSheetDocumentField name="СтатистикаПоОбъекту" id="260">
+							<DataPath>СтатистикаПоОбъекту</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<ContextMenu name="СтатистикаПоОбъектуКонтекстноеМеню" id="261"/>
+							<ExtendedTooltip name="СтатистикаПоОбъектуРасширеннаяПодсказка" id="262"/>
+						</SpreadSheetDocumentField>
+					</ChildItems>
+				</Page>
 			</ChildItems>
 		</Pages>
 	</ChildItems>
@@ -1447,6 +1478,17 @@
 				</Column>
 			</Columns>
 		</Attribute>
+		<Attribute name="СтатистикаПоОбъекту" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статистика по объекту</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:mxl="http://v8.1c.ru/8.2/data/spreadsheet">mxl:SpreadsheetDocument</v8:Type>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="КомандаОтборРолейПоПравамУстановитьПометки" id="1">
@@ -1488,6 +1530,21 @@
 			</Picture>
 			<Action>КомандаОтборРолейПоПравамСнятьПометки</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="КомандаОтобразитьСтатистику" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отобразить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отобразить статистику</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КомандаОтобразитьСтатистику</Action>
 		</Command>
 	</Commands>
 	<Parameters>
