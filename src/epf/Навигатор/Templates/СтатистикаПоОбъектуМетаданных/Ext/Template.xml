@@ -1,0 +1,583 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>СправочникИерархия</name>
+		<field xsi:type="DataSetFieldFolder">
+			<dataPath>СправочникИерархия</dataPath>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Справочник иерархия</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СправочникИерархия.Показатель</dataPath>
+			<field>Показатель</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Справочник иерархия.Показатель</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СправочникИерархия.ЗначениеПоказателя</dataPath>
+			<field>ЗначениеПоказателя</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Справочник иерархия.Значение показателя</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	КОЛИЧЕСТВО(*) КАК КоличествоЗаписей,
+	СУММА(ВЫБОР
+			КОГДА Т.ЭтоГруппа
+				ТОГДА 1
+			ИНАЧЕ 0
+		КОНЕЦ) КАК КоличествоГрупп,
+	СУММА(ВЫБОР
+			КОГДА Т.ЭтоГруппа
+				ТОГДА 0
+			ИНАЧЕ 1
+		КОНЕЦ) КАК КоличествоЭлементов,
+	СУММА(ВЫБОР
+			КОГДА Т.ПометкаУдаления
+				ТОГДА 1
+			ИНАЧЕ 0
+		КОНЕЦ) КАК КоличествоЗаписейПомеченныхНаУдаление,
+	СУММА(ВЫБОР
+			КОГДА Т.ЭтоГруппа
+					И Т.ПометкаУдаления
+				ТОГДА 1
+			ИНАЧЕ 0
+		КОНЕЦ) КАК КоличествоГруппПомеченныхНаУдаление,
+	СУММА(ВЫБОР
+			КОГДА НЕ Т.ЭтоГруппа
+					И Т.ПометкаУдаления
+				ТОГДА 1
+			ИНАЧЕ 0
+		КОНЕЦ) КАК КоличествоЭлементовПомеченныхНаУдаление
+ПОМЕСТИТЬ ВТ_Статистика
+ИЗ
+	#ИмяСправочника КАК Т
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	"Количество записей" КАК Показатель,
+	ВТ_Статистика.КоличествоЗаписей КАК ЗначениеПоказателя
+ИЗ
+	ВТ_Статистика КАК ВТ_Статистика
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	"Количество записей помеченных на удаление",
+	ВТ_Статистика.КоличествоЗаписейПомеченныхНаУдаление
+ИЗ
+	ВТ_Статистика КАК ВТ_Статистика
+	
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	"Количество групп",
+	ВТ_Статистика.КоличествоГрупп
+ИЗ
+	ВТ_Статистика КАК ВТ_Статистика
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	"Количество групп помеченных на удаление",
+	ВТ_Статистика.КоличествоГруппПомеченныхНаУдаление
+ИЗ
+	ВТ_Статистика КАК ВТ_Статистика
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	"Количество элементов",
+	ВТ_Статистика.КоличествоЭлементов
+ИЗ
+	ВТ_Статистика КАК ВТ_Статистика
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	"Количество элементов помеченных на удаление",
+	ВТ_Статистика.КоличествоЭлементовПомеченныхНаУдаление
+ИЗ
+	ВТ_Статистика КАК ВТ_Статистика
+
+</query>
+	</dataSet>
+	<dataSet xsi:type="DataSetQuery">
+		<name>Справочник</name>
+		<field xsi:type="DataSetFieldFolder">
+			<dataPath>Справочник</dataPath>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Справочник</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Справочник.Показатель</dataPath>
+			<field>Показатель</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Справочник.Показатель</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Справочник.ЗначениеПоказателя</dataPath>
+			<field>ЗначениеПоказателя</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Справочник.Значение показателя</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	КОЛИЧЕСТВО(*) КАК КоличествоЗаписей,
+	СУММА(ВЫБОР
+			КОГДА Т.ПометкаУдаления
+				ТОГДА 1
+			ИНАЧЕ 0
+		КОНЕЦ) КАК КоличествоЗаписейПомеченныхНаУдаление
+ПОМЕСТИТЬ ВТ_Статистика
+ИЗ
+	#ИмяСправочника КАК Т
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	"Количество записей" КАК Показатель,
+	ВТ_Статистика.КоличествоЗаписей КАК ЗначениеПоказателя
+ИЗ
+	ВТ_Статистика КАК ВТ_Статистика
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	"Количество записей помеченных на удаление",
+	ВТ_Статистика.КоличествоЗаписейПомеченныхНаУдаление
+ИЗ
+	ВТ_Статистика КАК ВТ_Статистика</query>
+	</dataSet>
+	<dataSet xsi:type="DataSetQuery">
+		<name>СправочникПодчиненный</name>
+		<field xsi:type="DataSetFieldFolder">
+			<dataPath>СправочникПодчиненный</dataPath>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Справочник подчиненный</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СправочникПодчиненный.Показатель</dataPath>
+			<field>Показатель</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Справочник подчиненный.Показатель</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СправочникПодчиненный.ЗначениеПоказателя</dataPath>
+			<field>ЗначениеПоказателя</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Справочник подчиненный.Значение показателя</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	КОЛИЧЕСТВО(*) КАК КоличествоЗаписей,
+	
+	КОЛИЧЕСТВО(*) КАК КоличествоЭлементов,
+	СУММА(ВЫБОР
+			КОГДА Т.ПометкаУдаления
+				ТОГДА 1
+			ИНАЧЕ 0
+		КОНЕЦ) КАК КоличествоЗаписейПомеченныхНаУдаление,
+	
+	СУММА(ВЫБОР
+			КОГДА Т.ПометкаУдаления
+				ТОГДА 1
+			ИНАЧЕ 0
+		КОНЕЦ) КАК КоличествоЭлементовПомеченныхНаУдаление,
+	КОЛИЧЕСТВО(РАЗЛИЧНЫЕ Т.Владелец) КАК КоличествоВладельцев
+ПОМЕСТИТЬ ВТ_Статистика
+ИЗ
+	#ИмяСправочника КАК Т
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	"Количество записей" КАК Показатель,
+	ВТ_Статистика.КоличествоЗаписей КАК ЗначениеПоказателя
+ИЗ
+	ВТ_Статистика КАК ВТ_Статистика
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	"Количество записей помеченных на удаление",
+	ВТ_Статистика.КоличествоЗаписейПомеченныхНаУдаление
+ИЗ
+	ВТ_Статистика КАК ВТ_Статистика
+	
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	"Количество элементов",
+	ВТ_Статистика.КоличествоЭлементов
+ИЗ
+	ВТ_Статистика КАК ВТ_Статистика
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	"Количество элементов помеченных на удаление",
+	ВТ_Статистика.КоличествоЭлементовПомеченныхНаУдаление
+ИЗ
+	ВТ_Статистика КАК ВТ_Статистика
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	"Количество уникальных владельцев",
+	ВТ_Статистика.КоличествоВладельцев
+ИЗ
+	ВТ_Статистика КАК ВТ_Статистика
+
+</query>
+	</dataSet>
+	<dataSet xsi:type="DataSetQuery">
+		<name>СправочникИерархияПодчиненный</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СправочникИерархияПодчиненный.Показатель</dataPath>
+			<field>Показатель</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Справочник иерархия подчиненный.Показатель</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СправочникИерархияПодчиненный.ЗначениеПоказателя</dataPath>
+			<field>ЗначениеПоказателя</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Справочник иерархия подчиненный.Значение показателя</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldFolder">
+			<dataPath>СправочникИерархияПодчиненный</dataPath>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Справочник иерархия подчиненный</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	КОЛИЧЕСТВО(*) КАК КоличествоЗаписей,
+	СУММА(ВЫБОР
+			КОГДА Т.ЭтоГруппа
+				ТОГДА 1
+			ИНАЧЕ 0
+		КОНЕЦ) КАК КоличествоГрупп,
+	СУММА(ВЫБОР
+			КОГДА Т.ЭтоГруппа
+				ТОГДА 0
+			ИНАЧЕ 1
+		КОНЕЦ) КАК КоличествоЭлементов,
+	СУММА(ВЫБОР
+			КОГДА Т.ПометкаУдаления
+				ТОГДА 1
+			ИНАЧЕ 0
+		КОНЕЦ) КАК КоличествоЗаписейПомеченныхНаУдаление,
+	СУММА(ВЫБОР
+			КОГДА Т.ЭтоГруппа
+					И Т.ПометкаУдаления
+				ТОГДА 1
+			ИНАЧЕ 0
+		КОНЕЦ) КАК КоличествоГруппПомеченныхНаУдаление,
+	СУММА(ВЫБОР
+			КОГДА НЕ Т.ЭтоГруппа
+					И Т.ПометкаУдаления
+				ТОГДА 1
+			ИНАЧЕ 0
+		КОНЕЦ) КАК КоличествоЭлементовПомеченныхНаУдаление,
+		КОЛИЧЕСТВО(РАЗЛИЧНЫЕ Т.Владелец) КАК КоличествоВладельцев
+ПОМЕСТИТЬ ВТ_Статистика
+ИЗ
+	#ИмяСправочника КАК Т
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	"Количество записей" КАК Показатель,
+	ВТ_Статистика.КоличествоЗаписей КАК ЗначениеПоказателя
+ИЗ
+	ВТ_Статистика КАК ВТ_Статистика
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	"Количество записей помеченных на удаление",
+	ВТ_Статистика.КоличествоЗаписейПомеченныхНаУдаление
+ИЗ
+	ВТ_Статистика КАК ВТ_Статистика
+	
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	"Количество групп",
+	ВТ_Статистика.КоличествоГрупп
+ИЗ
+	ВТ_Статистика КАК ВТ_Статистика
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	"Количество групп помеченных на удаление",
+	ВТ_Статистика.КоличествоГруппПомеченныхНаУдаление
+ИЗ
+	ВТ_Статистика КАК ВТ_Статистика
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	"Количество элементов",
+	ВТ_Статистика.КоличествоЭлементов
+ИЗ
+	ВТ_Статистика КАК ВТ_Статистика
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	"Количество элементов помеченных на удаление",
+	ВТ_Статистика.КоличествоЭлементовПомеченныхНаУдаление
+ИЗ
+	ВТ_Статистика КАК ВТ_Статистика
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	"Количество владельцев",
+	ВТ_Статистика.КоличествоВладельцев
+ИЗ
+	ВТ_Статистика КАК ВТ_Статистика
+
+</query>
+	</dataSet>
+	<settingsVariant>
+		<dcsset:name>Справочник</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Справочник</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Основной</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Справочник.Показатель</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Показатель</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Справочник.ЗначениеПоказателя</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Значение</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МакетОформления</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">Арктика</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+	<settingsVariant>
+		<dcsset:name>СправочникИерархия</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>СправочникИерархия</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СправочникИерархия.Показатель</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Показатель</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СправочникИерархия.ЗначениеПоказателя</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Значение</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МакетОформления</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">Арктика</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+	<settingsVariant>
+		<dcsset:name>СправочникПодчиненный</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Справочник подчиненный</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СправочникПодчиненный.Показатель</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Показатель</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СправочникПодчиненный.ЗначениеПоказателя</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Значение</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МакетОформления</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">Арктика</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+	<settingsVariant>
+		<dcsset:name>СправочникИерархияПодчиненный</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>СправочникИерархияПодчиненный</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СправочникИерархияПодчиненный.Показатель</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Показатель</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СправочникИерархияПодчиненный.ЗначениеПоказателя</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Значение</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МакетОформления</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">Арктика</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

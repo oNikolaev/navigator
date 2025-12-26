@@ -291,6 +291,7 @@
 					</ChildItems>
 				</Page>
 				<Page name="СтраницаФункциональныеОпции" id="142">
+					<Visible>false</Visible>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -312,6 +313,7 @@
 					</ChildItems>
 				</Page>
 				<Page name="СтраницаИерархия" id="144">
+					<Visible>false</Visible>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -333,6 +335,7 @@
 					</ChildItems>
 				</Page>
 				<Page name="СтраницаВладельцы" id="146">
+					<Visible>false</Visible>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -354,6 +357,7 @@
 					</ChildItems>
 				</Page>
 				<Page name="СтраницаДанные" id="148">
+					<Visible>false</Visible>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -375,6 +379,7 @@
 					</ChildItems>
 				</Page>
 				<Page name="СтраницаРегистраторы" id="232">
+					<Visible>false</Visible>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -455,6 +460,7 @@
 					</ChildItems>
 				</Page>
 				<Page name="СтраницаНумерация" id="150">
+					<Visible>false</Visible>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -476,6 +482,7 @@
 					</ChildItems>
 				</Page>
 				<Page name="СтраницаФормы" id="152">
+					<Visible>false</Visible>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -497,6 +504,7 @@
 					</ChildItems>
 				</Page>
 				<Page name="СтраницаПолеВвода" id="154">
+					<Visible>false</Visible>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -518,6 +526,7 @@
 					</ChildItems>
 				</Page>
 				<Page name="СтраницаКоманды" id="156">
+					<Visible>false</Visible>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -539,6 +548,7 @@
 					</ChildItems>
 				</Page>
 				<Page name="СтраницаМакеты" id="158">
+					<Visible>false</Visible>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -560,6 +570,7 @@
 					</ChildItems>
 				</Page>
 				<Page name="СтраницаВводНаОсновании" id="160">
+					<Visible>false</Visible>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -581,6 +592,7 @@
 					</ChildItems>
 				</Page>
 				<Page name="СтраницаПрава" id="41">
+					<Visible>false</Visible>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -945,6 +957,7 @@
 					</ChildItems>
 				</Page>
 				<Page name="СтраницаОбменДанными" id="162">
+					<Visible>false</Visible>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -966,6 +979,7 @@
 					</ChildItems>
 				</Page>
 				<Page name="СтраницаПрочее" id="164">
+					<Visible>false</Visible>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -987,6 +1001,7 @@
 					</ChildItems>
 				</Page>
 				<Page name="СтраницаМестаИспользования" id="230">
+					<Visible>false</Visible>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1002,6 +1017,7 @@
 					<ExtendedTooltip name="СтраницаМестаИспользованияРасширеннаяПодсказка" id="231"/>
 				</Page>
 				<Page name="СтраницаСтатистика" id="256">
+					<Visible>false</Visible>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>

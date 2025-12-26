@@ -484,7 +484,7 @@
 							</Synonym>
 							<Comment/>
 							<Type>
-								<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+								<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>
@@ -736,7 +736,7 @@
 							<Comment/>
 							<Type>
 								<v8:Type>xs:string</v8:Type>
-								<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+								<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
 								<v8:StringQualifiers>
 									<v8:Length>250</v8:Length>
 									<v8:AllowedLength>Variable</v8:AllowedLength>
@@ -1082,8 +1082,7 @@
 			<Form>РаботаСПроектами</Form>
 			<Template>ДвиженияДокумента</Template>
 			<Template>ПреобразованиеXSLT</Template>
-			<Template>СтатистикаПоИерархическомуСправочнику</Template>
-			<Template>СтатистикаПоСправочнику</Template>
+			<Template>СтатистикаПоОбъектуМетаданных</Template>
 		</ChildObjects>
 	</ExternalDataProcessor>
 </MetaDataObject>
